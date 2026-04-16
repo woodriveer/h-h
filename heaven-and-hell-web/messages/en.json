@@ -37,13 +37,38 @@
     "journey": "Journey",
     "complete": "The story is complete.",
     "playAgain": "Play Again",
-    "rolledVictory": "Rolled {result} \u2014 Victory"
+    "rolledVictory": "Rolled {result} \u2014 Victory",
+    "rolledVictoryAttempts": "Rolled {result} \u2014 Victory (after {attempts} tries)"
   },
   "journey": {
     "yourPath": "Your path",
     "title": "Journey So Far",
     "current": "— current",
-    "rolledVictory": "Rolled {result} \u2014 Victory"
+    "rolledVictory": "Rolled {result} \u2014 Victory",
+    "rolledVictoryAttempts": "Rolled {result} \u2014 Victory (after {attempts} tries)"
+  },
+  "email_check": {
+    "title": "Check your email",
+    "description": "We sent a confirmation link to **{email}**. Click it to activate your account.",
+    "back": "Back"
+  },
+  "profile": {
+    "player": "Player",
+    "games_played": "Games Played",
+    "good_endings": "Good Endings",
+    "good_ending_rate": "Success Rate",
+    "avg_battle_attempts": "Avg. Battle Attempts",
+    "recent_games": "Recent Games",
+    "no_games_recorded": "No games recorded yet.",
+    "play_now": "Play now",
+    "play_game": "Play",
+    "friends_section": "Social",
+    "add_friend": "Add Friend",
+    "friends_activity": "Friends\u2019 Activity",
+    "friend_count": "{count, plural, one {# friend} other {# friends}}",
+    "friends_feed": "Friends & Feed",
+    "salvation": "Salvation",
+    "fallen": "Fallen"
   },
   "system": {
     "title": "Heaven & Hell",

@@ -107,6 +107,8 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
                       <p className="mt-0.5 text-xs text-muted-foreground">
                         {step.exit.type === "choice" ? (
                           <span className="italic">&ldquo;{step.exit.text}&rdquo;</span>
+                        ) : step.exit.attempts > 1 ? (
+                          <span>{t("rolledVictoryAttempts", { result: step.exit.result, attempts: step.exit.attempts })}</span>
                         ) : (
                           <span>{t("rolledVictory", { result: step.exit.result })}</span>
                         )}

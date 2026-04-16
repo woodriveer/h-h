@@ -67,13 +67,6 @@ export function UserMenu({ profile }: UserMenuProps) {
               >
                 My Stats
               </Link>
-              <Link
-                href="/friends"
-                onClick={() => setOpen(false)}
-                className="block px-3 py-2 text-sm text-foreground/80 hover:bg-muted"
-              >
-                Friends
-              </Link>
               <button
                 onClick={signOut}
                 className={cn(

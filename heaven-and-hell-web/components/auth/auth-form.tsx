@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { cn } from "@/lib/utils"
 import { createClient } from "@/lib/supabase/client"
+import { useTranslations } from "next-intl"
 
 type Mode = "login" | "signup"
 
@@ -21,6 +22,7 @@ export function AuthForm() {
   const [checkEmail, setCheckEmail] = useState(false)
 
   const supabase = createClient()
+  const t = useTranslations()
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -87,12 +89,12 @@ export function AuthForm() {
   if (checkEmail) {
     return (
       <div className="flex flex-col gap-3 text-center">
-        <p className="text-lg font-semibold">Check your email</p>
+        <p className="text-lg font-semibold">{t("email_check.title")}</p>
         <p className="text-sm text-muted-foreground">
-          We sent a confirmation link to <strong>{email}</strong>. Click it to activate your account.
+          {t("email_check.description", { email })}
         </p>
         <Button variant="ghost" onClick={() => setCheckEmail(false)}>
-          Back
+          {t("email_check.back")}
         </Button>
       </div>
     )

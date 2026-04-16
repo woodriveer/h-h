@@ -37,13 +37,38 @@
     "journey": "Jornada",
     "complete": "A história está completa.",
     "playAgain": "Jogar Novamente",
-    "rolledVictory": "Rolou {result} \u2014 Vitória"
+    "rolledVictory": "Rolou {result} \u2014 Vitória",
+    "rolledVictoryAttempts": "Rolou {result} \u2014 Vitória (após {attempts} tentativas)"
   },
   "journey": {
     "yourPath": "Seu caminho",
     "title": "Jornada Até Aqui",
     "current": "— atual",
-    "rolledVictory": "Rolou {result} \u2014 Vitória"
+    "rolledVictory": "Rolou {result} \u2014 Vitória",
+    "rolledVictoryAttempts": "Rolou {result} \u2014 Vitória (após {attempts} tentativas)"
+  },
+  "email_check": {
+    "title": "Confira seu email",
+    "description": "Enviamos um link de confirmação para **{email}**. Clique nele para ativar sua conta.",
+    "back": "Voltar"
+  },
+  "profile": {
+    "player": "Jogador",
+    "games_played": "Jogos",
+    "good_endings": "Finais Felizes",
+    "good_ending_rate": "Taxa de Sucesso",
+    "avg_battle_attempts": "Média de Tentativas",
+    "recent_games": "Jogos Recentes",
+    "no_games_recorded": "Nenhum jogo registrado ainda.",
+    "play_now": "Jogue agora",
+    "play_game": "Jogar",
+    "friends_section": "Social",
+    "add_friend": "Adicionar Amigo",
+    "friends_activity": "Atividade dos Amigos",
+    "friend_count": "{count, plural, one {# amigo} other {# amigos}}",
+    "friends_feed": "Amigos & Feed",
+    "salvation": "Salvação",
+    "fallen": "Caído"
   },
   "system": {
     "title": "Heaven & Hell",

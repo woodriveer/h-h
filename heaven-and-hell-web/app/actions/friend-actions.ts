@@ -16,7 +16,7 @@ export async function sendFriendRequest(addresseeId: string): Promise<{ error: s
 
   if (error) return { error: error.message }
 
-  revalidatePath("/friends")
+  revalidatePath("/profile")
   return { error: null }
 }
 
@@ -36,6 +36,6 @@ export async function respondToRequest(
 
   if (error) return { error: error.message }
 
-  revalidatePath("/friends")
+  revalidatePath("/profile")
   return { error: null }
 }

@@ -8,7 +8,7 @@ import { checkWin, type StoryNode, type Battle } from "@/lib/story-engine"
 
 interface BattleSceneProps {
   node: StoryNode & { battle: Battle }
-  onWin: (nextId: string, diceResult: number) => void
+  onWin: (nextId: string, diceResult: number, attempts: number) => void
 }
 
 type Phase = "ready" | "rolling" | "result"
@@ -176,7 +176,7 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
           )}
 
           {phase === "result" && won === true && result !== null && (
-            <Button size="lg" onClick={() => onWin(battle.winNextId, result)}>
+            <Button size="lg" onClick={() => onWin(battle.winNextId, result, attempt + 1)}>
               {t("continue")}
             </Button>
           )}

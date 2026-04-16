@@ -20,7 +20,7 @@ export function ShareButton({ endingTitle, endingType }: ShareButtonProps) {
   }
 
   return (
-    <Button variant="outline" size="sm" onClick={handleShare} className="gap-2">
+    <Button variant="outline" size="lg" onClick={handleShare} className="gap-2">
       <svg
         viewBox="0 0 24 24"
         className="h-3.5 w-3.5 fill-current"

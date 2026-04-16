@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useTransition } from "react"
+import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { respondToRequest } from "@/app/actions/friend-actions"
 import type { Friendship, Profile } from "@/lib/supabase/types"
@@ -13,11 +14,13 @@ interface PendingRequest {
 export function FriendRequests({ requests }: { requests: PendingRequest[] }) {
   const [resolved, setResolved] = useState<Set<string>>(new Set())
   const [isPending, startTransition] = useTransition()
+  const router = useRouter()
 
   function handle(friendshipId: string, response: "accepted" | "declined") {
     startTransition(async () => {
       await respondToRequest(friendshipId, response)
       setResolved((prev) => new Set([...prev, friendshipId]))
+      router.refresh()
     })
   }
 

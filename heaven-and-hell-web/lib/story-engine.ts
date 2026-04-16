@@ -24,7 +24,7 @@ export interface StoryNode {
 
 export type PathStepExit =
   | { type: "choice"; text: string }
-  | { type: "battle"; result: number }
+  | { type: "battle"; result: number; attempts: number }
 
 export interface PathStep {
   nodeId: string

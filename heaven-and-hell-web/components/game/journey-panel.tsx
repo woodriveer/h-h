@@ -112,6 +112,11 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
                           <span className="text-foreground/40">→</span>
                           <span className="italic">&ldquo;{step.exit.text}&rdquo;</span>
                         </>
+                      ) : step.exit.attempts > 1 ? (
+                        <>
+                          <span className="text-foreground/40">→</span>
+                          <span>{t("rolledVictoryAttempts", { result: step.exit.result, attempts: step.exit.attempts })}</span>
+                        </>
                       ) : (
                         <>
                           <span className="text-foreground/40">→</span>

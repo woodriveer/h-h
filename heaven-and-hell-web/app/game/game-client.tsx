@@ -62,13 +62,13 @@ export function GameClient({ storyNodes, startingNode }: GameClientProps) {
     setNodeId(choice.nextId)
   }
 
-  const handleBattleWin = (nextId: string, diceResult: number) => {
+  const handleBattleWin = (nextId: string, diceResult: number, attempts: number) => {
     const nextNode = storyNodes[nextId]
     setPath((prev) => {
       const updated = [...prev]
       updated[updated.length - 1] = {
         ...updated[updated.length - 1],
-        exit: { type: "battle", result: diceResult },
+        exit: { type: "battle", result: diceResult, attempts },
       }
       return [...updated, makeStep(nextNode)]
     })
