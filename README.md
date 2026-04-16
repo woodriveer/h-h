@@ -230,3 +230,32 @@ Suficiente, decidiu. Por hoje, suficiente.
 
 
 E agora, o mermaid atualizado com a árvore de Valerius encerrada:
+
+```mermaid
+graph TD
+    A[Prólogo: A Grande Brecha] --> B1[Thalassa - Capítulo 1: A Floresta em Chamas]
+    A --> B2[Valerius - Capítulo 1: Os Picos Estilhaçados]
+    A --> B3[Krell - Capítulo 1: A Cidade em Ruínas]
+    A --> B4[Xandros - Capítulo 1: A Biblioteca Arcana]
+    A --> B5[Seraphina - Capítulo 1: Os Portões das Sombras]
+
+    B2 --> V1A[Capítulo 2.1: A Batalha contra a Horda]
+    V1A --> V2A[Fase 1: O Funil - Doze demônios no abismo]
+    V2A --> V3A[Fase 2: A Dança - O Comandante derrotado]
+    V3A --> V4A[Fase 3: A Fuga - Sem energia, só instinto]
+    V4A --> V5A[Clímax: O Pico - A tempestade como arma final]
+    V5A --> V6A[Epílogo: O Sinal enviado - Descida ao vale]
+
+    B2 --> V1B[Capítulo 2.2: Mantenha seus Inimigos por Perto]
+
+    V6A --> C
+    V1B --> C
+
+    B1 --> C[A Convergência: A Encruzilhada do Destino]
+    B3 --> C
+    B4 --> C
+    B5 --> C
+
+    C --> D{A Mecânica da Confiança}
+    D --> E[Ato 2: A Jornada aos Portões de Dis]
+```
