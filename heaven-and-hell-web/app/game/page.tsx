@@ -1,12 +1,13 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 import { STORY_NODES, STARTING_NODE } from "@/lib/story-data"
 import { StoryScene } from "@/components/game/story-scene"
 import { BattleScene } from "@/components/game/battle-scene"
 import { EndingScene } from "@/components/game/ending-scene"
 import { JourneyPanel } from "@/components/game/journey-panel"
 import { Button } from "@/components/ui/button"
+import { saveGameResult } from "@/app/actions/save-game-result"
 import type { Choice, PathStep, StoryNode } from "@/lib/story-engine"
 
 function makeStep(node: StoryNode): PathStep {
@@ -22,8 +23,17 @@ export default function GamePage() {
   const [nodeId, setNodeId] = useState(STARTING_NODE)
   const [path, setPath] = useState<PathStep[]>([makeStep(STORY_NODES[STARTING_NODE])])
   const [showJourney, setShowJourney] = useState(false)
+  const savedRef = useRef(false) // prevent double-saves on re-render
 
   const node: StoryNode | undefined = STORY_NODES[nodeId]
+
+  // Auto-save when reaching an ending for the first time
+  useEffect(() => {
+    if (node?.isEnding && node.endingType && !savedRef.current) {
+      savedRef.current = true
+      saveGameResult(node.endingType, node.title, path)
+    }
+  }, [node, path])
 
   if (!node) {
     return (
@@ -64,6 +74,7 @@ export default function GamePage() {
     setNodeId(STARTING_NODE)
     setPath([makeStep(startNode)])
     setShowJourney(false)
+    savedRef.current = false
   }
 
   return (

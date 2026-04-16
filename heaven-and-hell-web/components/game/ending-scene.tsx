@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { ShareButton } from "@/components/game/share-button"
 import type { PathStep, StoryNode } from "@/lib/story-engine"
 
 interface EndingSceneProps {
@@ -120,9 +121,12 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
 
       <div className="flex flex-col gap-2">
         <p className="text-xs text-muted-foreground">The story is complete.</p>
-        <Button variant="outline" size="lg" onClick={onRestart}>
-          Play Again
-        </Button>
+        <div className="flex flex-wrap gap-2">
+          <Button variant="outline" size="lg" onClick={onRestart} className="flex-1">
+            Play Again
+          </Button>
+          <ShareButton endingTitle={node.title} endingType={node.endingType ?? "bad"} />
+        </div>
       </div>
     </div>
   )
