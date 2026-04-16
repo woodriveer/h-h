@@ -5,8 +5,10 @@ import { NextIntlClientProvider } from "next-intl"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { UserMenu } from "@/components/auth/user-menu"
+import { LangSelector } from "@/components/lang-selector"
 import { createClient } from "@/lib/supabase/server"
 import { cn } from "@/lib/utils"
+import type { Locale } from "@/i18n/request"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -49,7 +51,8 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
-            <header className="fixed top-0 right-0 z-30 p-3">
+            <header className="fixed top-0 right-0 z-30 flex items-center gap-2 p-3">
+              <LangSelector current={locale as Locale} />
               <UserMenu profile={profile} />
             </header>
             {children}
