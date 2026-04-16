@@ -7,7 +7,7 @@ import { checkWin, type StoryNode, type Battle } from "@/lib/story-engine"
 
 interface BattleSceneProps {
   node: StoryNode & { battle: Battle }
-  onWin: (nextId: string) => void
+  onWin: (nextId: string, diceResult: number) => void
 }
 
 type Phase = "ready" | "rolling" | "result"
@@ -88,17 +88,29 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-        <p className="mb-1 text-xs font-medium tracking-widest text-muted-foreground uppercase">
-          Battle
-        </p>
-        <h1 className="mb-5 text-2xl font-bold text-card-foreground">{node.title}</h1>
-        <div className="space-y-4">
-          {node.text.split("\n\n").map((paragraph, i) => (
-            <p key={i} className="text-sm leading-relaxed text-card-foreground/90">
-              {paragraph}
-            </p>
-          ))}
+      <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
+        {node.image && (
+          <div className="relative h-52 w-full overflow-hidden">
+            <img
+              src={node.image}
+              alt={node.title}
+              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-card/70 to-transparent" />
+          </div>
+        )}
+        <div className="p-6">
+          <p className="mb-1 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+            Battle
+          </p>
+          <h1 className="mb-5 text-2xl font-bold text-card-foreground">{node.title}</h1>
+          <div className="space-y-4">
+            {node.text.split("\n\n").map((paragraph, i) => (
+              <p key={i} className="text-sm leading-relaxed text-card-foreground/90">
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -160,8 +172,8 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
             </Button>
           )}
 
-          {phase === "result" && won === true && (
-            <Button size="lg" onClick={() => onWin(battle.winNextId)}>
+          {phase === "result" && won === true && result !== null && (
+            <Button size="lg" onClick={() => onWin(battle.winNextId, result)}>
               Continue →
             </Button>
           )}

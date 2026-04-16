@@ -6,6 +6,7 @@ export const STORY_NODES: Record<string, StoryNode> = {
   intro: {
     id: "intro",
     title: "The Crossroads of Eternity",
+    image: "https://picsum.photos/seed/eternal-bridge-mist/1200/500",
     text: `The last thing you remember is a blinding flash — then silence.
 
 You open your eyes to a vast stone bridge stretching into the void, half bathed in cold golden light, half swallowed by churning shadow. The air smells of ozone and old ash, of something ancient deciding your fate.
@@ -24,6 +25,7 @@ Behind you, there is only darkness and the fading echo of a life already lived.`
   shadow_path: {
     id: "shadow_path",
     title: "The Shadow Realm",
+    image: "https://picsum.photos/seed/dark-void-shadows/1200/500",
     text: `Cold wraps around you like a second skin the moment you step off the bridge into darkness. Shapes writhe in the void — the outlines of souls who came before you and were never heard from again.
 
 Then it rises.
@@ -47,6 +49,7 @@ Steel yourself. This is your first test.`,
   shadow_victory: {
     id: "shadow_victory",
     title: "The Crossroads of Souls",
+    image: "https://picsum.photos/seed/memory-orb-spirits/1200/500",
     text: `The Shade dissolves with a shriek that rattles your bones, its dark form scattering into particles of cold light that drift upward and disappear.
 
 Beyond where it stood, you find something you did not expect: a floating orb of swirling memory, pulsing with a light that is neither heaven nor hell. Images flicker inside it — a life lived in complicated ways, moments of cruelty and moments of unexpected grace, all tangled together.
@@ -71,6 +74,7 @@ The orb waits. The bridge behind you is gone. There is only forward.`,
   fallen_ending: {
     id: "fallen_ending",
     title: "The Fallen",
+    image: "https://picsum.photos/seed/hellfire-descent/1200/500",
     text: `You reach into the orb and drink the shadow to its depths.
 
 It fills your chest like ice and fire at once — silencing old doubts, old guilt, old questions you never let yourself finish asking. Whatever softness was left in you crystallizes into something harder and colder and, in its own way, beautiful.
@@ -89,6 +93,7 @@ Your story ends here, in fire and absolute sovereignty.`,
   redemption_battle: {
     id: "redemption_battle",
     title: "The Trial of Redemption",
+    image: "https://picsum.photos/seed/angels-judgment-light/1200/500",
     text: `You turn from the shadow and reach toward the light.
 
 It does not come easily.
@@ -112,6 +117,7 @@ This is not a fight you win with strength. It is a fight you win by being, in th
   light_path: {
     id: "light_path",
     title: "The Path of Light",
+    image: "https://picsum.photos/seed/golden-radiance-path/1200/500",
     text: `Warmth washes over you the moment you step into the amber glow. Ancient runes drift past like fireflies, burning briefly with recognition before dissolving into the air. This path has been walked by many. Not all of them made it to the end.
 
 A Guardian of Truth materializes ahead — a radiant being whose presence makes you feel utterly transparent, every memory and choice laid bare like text on a page. It does not threaten you. It simply looks, and in its looking, you feel every secret you ever kept rise to the surface.
@@ -136,6 +142,7 @@ Behind the Guardian, you can almost see the shapes of what waits beyond. But bet
   gates_bold: {
     id: "gates_bold",
     title: "The Gate of Valor",
+    image: "https://picsum.photos/seed/pearl-gates-valor/1200/500",
     text: `The Guardian tilts its head. "Boldness," it says. There is something like respect in its voice — and something like a warning.
 
 You stand at the gates of Heaven themselves now. Pearl and gold and light so concentrated it has weight, pressing gently against your face. Between you and entry stands the Final Guardian — ancient beyond reckoning, its form shifting between human and something much larger.
@@ -157,6 +164,7 @@ For proof.`,
   gates_humble: {
     id: "gates_humble",
     title: "The Gate of Grace",
+    image: "https://picsum.photos/seed/grace-kneeling-light/1200/500",
     text: `The Guardian pauses for a long moment after you kneel.
 
 "Humility," it says finally, and something in its voice has shifted — still careful, still measuring, but warmer. "That is rarer than most souls realize. Even here."
@@ -178,6 +186,7 @@ It is, in some ways, the hardest test of all — because you cannot fake it. You
   heaven_ending: {
     id: "heaven_ending",
     title: "Heaven Awaits",
+    image: "https://picsum.photos/seed/heaven-golden-peace/1200/500",
     text: `The gates open.
 
 Not with a crash or a fanfare. Not with trumpets or proclamation. They open the way a held breath finally releases — with the quiet exhale of something that has been waiting a very long time.
