@@ -45,6 +45,18 @@
     "current": "— current",
     "rolledVictory": "Rolled {result} \u2014 Victory"
   },
+  "system": {
+    "title": "Heaven & Hell",
+    "sign-in": "Sign in",
+    "sign-in-description": "Sign in to track your journey and connect with friends.",
+    "password": "Password",
+    "nickname": "Nickname",
+    "email": "Email",
+    "create-account-button": "Create Account",
+    "sign-in-button": "Sign in",
+    "sign-up-button": "Sign up",
+    "sign-out-button": "Sign out"
+  },
   "share": {
     "button": "Share on X",
     "text": "I just reached \"{title}\" ({label}) in Heaven & Hell \u2014 a branching story of fate. #HeavenAndHell"

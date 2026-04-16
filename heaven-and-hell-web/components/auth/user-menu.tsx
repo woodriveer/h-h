@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { createClient } from "@/lib/supabase/client"
 import type { Profile } from "@/lib/supabase/types"
+import { useTranslations } from "next-intl"
 
 interface UserMenuProps {
   profile: Profile | null
@@ -16,6 +17,7 @@ export function UserMenu({ profile }: UserMenuProps) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
   const supabase = createClient()
+  const t = useTranslations()
 
   async function signOut() {
     await supabase.auth.signOut()
@@ -27,7 +29,7 @@ export function UserMenu({ profile }: UserMenuProps) {
     return (
       <Link href="/auth">
         <Button variant="ghost" size="sm" className="text-xs text-muted-foreground hover:text-foreground">
-          Sign In
+          {t("system.sign-in")}
         </Button>
       </Link>
     )

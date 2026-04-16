@@ -1,7 +1,7 @@
 {
   "home": {
     "tagline": "Uma História Interativa",
-    "title": "Céu & Inferno",
+    "title": "Heaven & Hell",
     "description": "Uma alma está na encruzilhada da eternidade. Cada escolha importa. Algumas batalhas precisam ser vencidas para que você avance. Seu destino está nos dados.",
     "begin": "Iniciar sua jornada",
     "darkMode": "(Pressione d para alternar o modo escuro)",
@@ -44,6 +44,18 @@
     "title": "Jornada Até Aqui",
     "current": "— atual",
     "rolledVictory": "Rolou {result} \u2014 Vitória"
+  },
+  "system": {
+    "title": "Heaven & Hell",
+    "sign-in": "Entrar",
+    "sign-in-description": "Entrar para acompanhar sua jornada e se conectar com amigos.",
+    "password": "Senha",
+    "nickname": "Apelido",
+    "email": "Email",
+    "create-account-button": "Criar Conta",
+    "sign-in-button": "Entrar",
+    "sign-up-button": "Cadastrar",
+    "sign-out-button": "Sair"
   },
   "share": {
     "button": "Compartilhar no X",

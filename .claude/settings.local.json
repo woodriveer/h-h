@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm typecheck *)",
+      "Bash(pnpm *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(gh run *)",
+      "Bash(bash .claude/feature-validate.sh)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/feature-validate.sh",
+            "asyncRewake": true,
+            "timeout": 300,
+            "statusMessage": "Validating build, committing, and checking CI..."
+          }
+        ]
+      }
+    ]
+  }
+}
