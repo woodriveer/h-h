@@ -1,5 +1,6 @@
 "use client"
 
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { ShareButton } from "@/components/game/share-button"
@@ -12,6 +13,8 @@ interface EndingSceneProps {
 }
 
 export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
+  const t = useTranslations("ending")
+  const tJourney = useTranslations("journey")
   const isGood = node.endingType === "good"
 
   return (
@@ -45,7 +48,7 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
               isGood ? "text-amber-500" : "text-destructive",
             )}
           >
-            {isGood ? "Ending — Salvation" : "Ending — The Fallen"}
+            {isGood ? t("salvation") : t("fallen")}
           </p>
           <h1
             className={cn(
@@ -70,9 +73,9 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
         <div className="rounded-xl border border-border bg-card shadow-sm">
           <div className="border-b border-border px-6 py-4">
             <p className="text-xs font-medium tracking-widest text-muted-foreground uppercase">
-              Your complete path
+              {t("completePath")}
             </p>
-            <h2 className="text-lg font-bold">Journey</h2>
+            <h2 className="text-lg font-bold">{t("journey")}</h2>
           </div>
           <ol className="px-6 py-4">
             {path.map((step, i) => {
@@ -80,7 +83,6 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
 
               return (
                 <li key={`${step.nodeId}-${i}`} className="relative flex gap-3">
-                  {/* Connector dot + line */}
                   <div className="flex flex-col items-center">
                     <div
                       className={cn(
@@ -99,7 +101,6 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
                     )}
                   </div>
 
-                  {/* Step content */}
                   <div className="min-w-0 flex-1 pb-3">
                     <p className="text-sm font-medium text-foreground">{step.title}</p>
                     {step.exit && (
@@ -107,7 +108,7 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
                         {step.exit.type === "choice" ? (
                           <span className="italic">&ldquo;{step.exit.text}&rdquo;</span>
                         ) : (
-                          <span>Rolled {step.exit.result} — Victory</span>
+                          <span>{t("rolledVictory", { result: step.exit.result })}</span>
                         )}
                       </p>
                     )}
@@ -120,10 +121,10 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
       )}
 
       <div className="flex flex-col gap-2">
-        <p className="text-xs text-muted-foreground">The story is complete.</p>
+        <p className="text-xs text-muted-foreground">{t("complete")}</p>
         <div className="flex flex-wrap gap-2">
           <Button variant="outline" size="lg" onClick={onRestart} className="flex-1">
-            Play Again
+            {t("playAgain")}
           </Button>
           <ShareButton endingTitle={node.title} endingType={node.endingType ?? "bad"} />
         </div>

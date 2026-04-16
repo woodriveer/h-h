@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useCallback } from "react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { checkWin, type StoryNode, type Battle } from "@/lib/story-engine"
@@ -38,6 +39,8 @@ function DiceFace({
 
 export function BattleScene({ node, onWin }: BattleSceneProps) {
   const { battle } = node
+  const t = useTranslations("dice")
+  const tScene = useTranslations("scene")
 
   const [attempt, setAttempt] = useState(0)
   const [phase, setPhase] = useState<Phase>("ready")
@@ -101,7 +104,7 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
         )}
         <div className="p-6">
           <p className="mb-1 text-xs font-medium tracking-widest text-muted-foreground uppercase">
-            Battle
+            {tScene("battle")}
           </p>
           <h1 className="mb-5 text-2xl font-bold text-card-foreground">{node.title}</h1>
           <div className="space-y-4">
@@ -116,7 +119,7 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
 
       <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
         <p className="mb-1 text-xs font-medium tracking-widest text-muted-foreground uppercase">
-          Dice Roll
+          {t("label")}
         </p>
         <p className="mb-5 text-sm text-card-foreground/80">{battle.description}</p>
 
@@ -125,10 +128,10 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
 
           <div className="flex flex-col gap-1 text-xs text-muted-foreground">
             <span>
-              Die: <strong className="text-foreground">d{battle.diceMax}</strong>
+              {t("die")}: <strong className="text-foreground">d{battle.diceMax}</strong>
             </span>
             <span>
-              Win on:{" "}
+              {t("winOn")}:{" "}
               <strong className="text-foreground">
                 {battle.winMin === winMax
                   ? battle.winMin
@@ -142,21 +145,21 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
                   won ? "text-green-500" : "text-destructive",
                 )}
               >
-                Rolled: {result}
+                {t("rolled")}: {result}
               </span>
             )}
           </div>
         </div>
 
-        {phase === "result" && won === true && (
+        {phase === "result" && won === true && result !== null && (
           <div className="mb-4 rounded-lg border border-green-500/30 bg-green-500/10 p-3 text-sm font-medium text-green-600 dark:text-green-400">
-            Victory! You rolled {result} — you prevailed.
+            {t("victory", { result })}
           </div>
         )}
 
-        {phase === "result" && won === false && (
+        {phase === "result" && won === false && result !== null && (
           <div className="mb-4 rounded-lg border border-destructive/30 bg-destructive/10 p-3 text-sm font-medium text-destructive">
-            Defeated. You rolled {result} — not enough. Gather yourself and try again.
+            {t("defeat", { result })}
           </div>
         )}
 
@@ -168,19 +171,19 @@ export function BattleScene({ node, onWin }: BattleSceneProps) {
               size="lg"
               className="min-w-36"
             >
-              {phase === "rolling" ? "Rolling…" : "Roll the Dice"}
+              {phase === "rolling" ? t("rolling") : t("roll")}
             </Button>
           )}
 
           {phase === "result" && won === true && result !== null && (
             <Button size="lg" onClick={() => onWin(battle.winNextId, result)}>
-              Continue →
+              {t("continue")}
             </Button>
           )}
 
           {phase === "result" && won === false && (
             <Button size="lg" variant="outline" onClick={handleRetry}>
-              Try Again
+              {t("tryAgain")}
             </Button>
           )}
         </div>

@@ -1,0 +1,52 @@
+{
+  "home": {
+    "tagline": "An Interactive Story",
+    "title": "Heaven & Hell",
+    "description": "A soul stands at the crossroads of eternity. Every choice matters. Some battles must be won before you can move on. Your fate is in the dice.",
+    "begin": "Begin your journey",
+    "darkMode": "(Press d to toggle dark mode)",
+    "language": "Language"
+  },
+  "game": {
+    "nodeNotFound": "Story node \"{nodeId}\" not found.",
+    "invalidNode": "Invalid story node.",
+    "journeyButton": "Journey ({count})"
+  },
+  "scene": {
+    "chapter": "Chapter",
+    "battle": "Battle",
+    "what": "What do you do?"
+  },
+  "dice": {
+    "label": "Dice Roll",
+    "die": "Die",
+    "winOn": "Win on",
+    "rolled": "Rolled",
+    "roll": "Roll the Dice",
+    "rolling": "Rolling\u2026",
+    "victory": "Victory! You rolled {result} \u2014 you prevailed.",
+    "defeat": "Defeated. You rolled {result} \u2014 not enough. Gather yourself and try again.",
+    "victoryLabel": "Victory",
+    "continue": "Continue \u2192",
+    "tryAgain": "Try Again"
+  },
+  "ending": {
+    "salvation": "Ending \u2014 Salvation",
+    "fallen": "Ending \u2014 The Fallen",
+    "completePath": "Your complete path",
+    "journey": "Journey",
+    "complete": "The story is complete.",
+    "playAgain": "Play Again",
+    "rolledVictory": "Rolled {result} \u2014 Victory"
+  },
+  "journey": {
+    "yourPath": "Your path",
+    "title": "Journey So Far",
+    "current": "— current",
+    "rolledVictory": "Rolled {result} \u2014 Victory"
+  },
+  "share": {
+    "button": "Share on X",
+    "text": "I just reached \"{title}\" ({label}) in Heaven & Hell \u2014 a branching story of fate. #HeavenAndHell"
+  }
+}

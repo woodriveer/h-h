@@ -1,0 +1,52 @@
+{
+  "home": {
+    "tagline": "Uma História Interativa",
+    "title": "Céu & Inferno",
+    "description": "Uma alma está na encruzilhada da eternidade. Cada escolha importa. Algumas batalhas precisam ser vencidas para que você avance. Seu destino está nos dados.",
+    "begin": "Iniciar sua jornada",
+    "darkMode": "(Pressione d para alternar o modo escuro)",
+    "language": "Idioma"
+  },
+  "game": {
+    "nodeNotFound": "Nó da história \"{nodeId}\" não encontrado.",
+    "invalidNode": "Nó da história inválido.",
+    "journeyButton": "Jornada ({count})"
+  },
+  "scene": {
+    "chapter": "Capítulo",
+    "battle": "Batalha",
+    "what": "O que você faz?"
+  },
+  "dice": {
+    "label": "Rolar Dados",
+    "die": "Dado",
+    "winOn": "Vence com",
+    "rolled": "Rolou",
+    "roll": "Rolar os Dados",
+    "rolling": "Rolando\u2026",
+    "victory": "Vitória! Você rolou {result} \u2014 você prevaleceu.",
+    "defeat": "Derrota. Você rolou {result} \u2014 não foi suficiente. Prepare-se e tente novamente.",
+    "victoryLabel": "Vitória",
+    "continue": "Continuar \u2192",
+    "tryAgain": "Tentar Novamente"
+  },
+  "ending": {
+    "salvation": "Fim \u2014 Salvação",
+    "fallen": "Fim \u2014 O Caído",
+    "completePath": "Seu caminho completo",
+    "journey": "Jornada",
+    "complete": "A história está completa.",
+    "playAgain": "Jogar Novamente",
+    "rolledVictory": "Rolou {result} \u2014 Vitória"
+  },
+  "journey": {
+    "yourPath": "Seu caminho",
+    "title": "Jornada Até Aqui",
+    "current": "— atual",
+    "rolledVictory": "Rolou {result} \u2014 Vitória"
+  },
+  "share": {
+    "button": "Compartilhar no X",
+    "text": "Acabei de chegar em \"{title}\" ({label}) em Céu & Inferno \u2014 uma história de escolhas e destino. #CeuEInferno"
+  }
+}

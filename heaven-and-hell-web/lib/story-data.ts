@@ -1,12 +1,73 @@
 import type { StoryNode } from "./story-engine"
+import type { StoryTranslation } from "./story-translations/types"
+import { ptBRStory } from "./story-translations/pt-BR"
 
 export const STARTING_NODE = "intro"
 
-export const STORY_NODES: Record<string, StoryNode> = {
-  intro: {
+// ─── Structure (locale-independent) ──────────────────────────────────────────
+// Only contains node IDs, image URLs, choice targets, and battle mechanics.
+// User-visible text comes from the locale translation overlay.
+
+type NodeStructure = Pick<StoryNode, "id" | "image" | "isEnding" | "endingType"> & {
+  choices?: { nextId: string }[]
+  battle?: { diceMax: number; winMin: number; winMax?: number; winNextId: string }
+}
+
+const NODE_STRUCTURE: NodeStructure[] = [
+  {
     id: "intro",
-    title: "The Crossroads of Eternity",
     image: "https://picsum.photos/seed/eternal-bridge-mist/1200/500",
+    choices: [{ nextId: "shadow_path" }, { nextId: "light_path" }],
+  },
+  {
+    id: "shadow_path",
+    image: "https://picsum.photos/seed/dark-void-shadows/1200/500",
+    battle: { diceMax: 6, winMin: 4, winNextId: "shadow_victory" },
+  },
+  {
+    id: "shadow_victory",
+    image: "https://picsum.photos/seed/memory-orb-spirits/1200/500",
+    choices: [{ nextId: "fallen_ending" }, { nextId: "redemption_battle" }],
+  },
+  {
+    id: "fallen_ending",
+    image: "https://picsum.photos/seed/hellfire-descent/1200/500",
+    isEnding: true,
+    endingType: "bad",
+  },
+  {
+    id: "redemption_battle",
+    image: "https://picsum.photos/seed/angels-judgment-light/1200/500",
+    battle: { diceMax: 6, winMin: 3, winNextId: "heaven_ending" },
+  },
+  {
+    id: "light_path",
+    image: "https://picsum.photos/seed/golden-radiance-path/1200/500",
+    choices: [{ nextId: "gates_bold" }, { nextId: "gates_humble" }],
+  },
+  {
+    id: "gates_bold",
+    image: "https://picsum.photos/seed/pearl-gates-valor/1200/500",
+    battle: { diceMax: 6, winMin: 4, winNextId: "heaven_ending" },
+  },
+  {
+    id: "gates_humble",
+    image: "https://picsum.photos/seed/grace-kneeling-light/1200/500",
+    battle: { diceMax: 6, winMin: 2, winNextId: "heaven_ending" },
+  },
+  {
+    id: "heaven_ending",
+    image: "https://picsum.photos/seed/heaven-golden-peace/1200/500",
+    isEnding: true,
+    endingType: "good",
+  },
+]
+
+// ─── English translations (inline — keeps en as the source of truth) ──────────
+
+const enStory: StoryTranslation = {
+  intro: {
+    title: "The Crossroads of Eternity",
     text: `The last thing you remember is a blinding flash — then silence.
 
 You open your eyes to a vast stone bridge stretching into the void, half bathed in cold golden light, half swallowed by churning shadow. The air smells of ozone and old ash, of something ancient deciding your fate.
@@ -16,16 +77,11 @@ A cloaked figure materializes beside you. Its face is hidden beneath a hood stit
 "Welcome, wandering soul. Your story is not yet written." It gestures at the two paths ahead. "Choose wisely — or choose boldly. But do not linger. The bridge does not wait."
 
 Behind you, there is only darkness and the fading echo of a life already lived.`,
-    choices: [
-      { text: "Step into the shadows", nextId: "shadow_path" },
-      { text: "Walk toward the light", nextId: "light_path" },
-    ],
+    choices: ["Step into the shadows", "Walk toward the light"],
   },
 
   shadow_path: {
-    id: "shadow_path",
     title: "The Shadow Realm",
-    image: "https://picsum.photos/seed/dark-void-shadows/1200/500",
     text: `Cold wraps around you like a second skin the moment you step off the bridge into darkness. Shapes writhe in the void — the outlines of souls who came before you and were never heard from again.
 
 Then it rises.
@@ -38,18 +94,12 @@ It lunges without warning. You have no weapon. You have no armor. You have only 
 
 Steel yourself. This is your first test.`,
     battle: {
-      description:
-        "The Shade Guardian attacks! Roll 4 or higher on a d6 to overpower it with sheer force of will.",
-      diceMax: 6,
-      winMin: 4,
-      winNextId: "shadow_victory",
+      description: "The Shade Guardian attacks! Roll 4 or higher on a d6 to overpower it with sheer force of will.",
     },
   },
 
   shadow_victory: {
-    id: "shadow_victory",
     title: "The Crossroads of Souls",
-    image: "https://picsum.photos/seed/memory-orb-spirits/1200/500",
     text: `The Shade dissolves with a shriek that rattles your bones, its dark form scattering into particles of cold light that drift upward and disappear.
 
 Beyond where it stood, you find something you did not expect: a floating orb of swirling memory, pulsing with a light that is neither heaven nor hell. Images flicker inside it — a life lived in complicated ways, moments of cruelty and moments of unexpected grace, all tangled together.
@@ -60,21 +110,13 @@ A voice speaks from somewhere behind the orb. Not god. Not demon. Something olde
 
 The orb waits. The bridge behind you is gone. There is only forward.`,
     choices: [
-      {
-        text: "Embrace the darkness — claim its power without apology",
-        nextId: "fallen_ending",
-      },
-      {
-        text: "Turn toward the light — surrender to the chance of redemption",
-        nextId: "redemption_battle",
-      },
+      "Embrace the darkness — claim its power without apology",
+      "Turn toward the light — surrender to the chance of redemption",
     ],
   },
 
   fallen_ending: {
-    id: "fallen_ending",
     title: "The Fallen",
-    image: "https://picsum.photos/seed/hellfire-descent/1200/500",
     text: `You reach into the orb and drink the shadow to its depths.
 
 It fills your chest like ice and fire at once — silencing old doubts, old guilt, old questions you never let yourself finish asking. Whatever softness was left in you crystallizes into something harder and colder and, in its own way, beautiful.
@@ -86,14 +128,10 @@ Far below, the gates of Hell swing open. Not as punishment. Not as condemnation.
 You chose your nature. You will live in it now, and rule it, and perhaps — in some distant turn of an age — wonder what the other path held.
 
 Your story ends here, in fire and absolute sovereignty.`,
-    isEnding: true,
-    endingType: "bad",
   },
 
   redemption_battle: {
-    id: "redemption_battle",
     title: "The Trial of Redemption",
-    image: "https://picsum.photos/seed/angels-judgment-light/1200/500",
     text: `You turn from the shadow and reach toward the light.
 
 It does not come easily.
@@ -106,18 +144,12 @@ They draw swords of living flame and form a circle around you.
 
 This is not a fight you win with strength. It is a fight you win by being, in this moment, exactly as worthy as you hope you are.`,
     battle: {
-      description:
-        "Face the Judgment of the Angels! Roll 3 or higher on a d6 to be found worthy of redemption.",
-      diceMax: 6,
-      winMin: 3,
-      winNextId: "heaven_ending",
+      description: "Face the Judgment of the Angels! Roll 3 or higher on a d6 to be found worthy of redemption.",
     },
   },
 
   light_path: {
-    id: "light_path",
     title: "The Path of Light",
-    image: "https://picsum.photos/seed/golden-radiance-path/1200/500",
     text: `Warmth washes over you the moment you step into the amber glow. Ancient runes drift past like fireflies, burning briefly with recognition before dissolving into the air. This path has been walked by many. Not all of them made it to the end.
 
 A Guardian of Truth materializes ahead — a radiant being whose presence makes you feel utterly transparent, every memory and choice laid bare like text on a page. It does not threaten you. It simply looks, and in its looking, you feel every secret you ever kept rise to the surface.
@@ -128,21 +160,13 @@ It says nothing for a long moment. Then:
 
 Behind the Guardian, you can almost see the shapes of what waits beyond. But between you and it is still a choice — the last one this path asks of you.`,
     choices: [
-      {
-        text: "Step forward boldly — you have earned your place here",
-        nextId: "gates_bold",
-      },
-      {
-        text: "Kneel in humility — you are grateful, and you know what you are",
-        nextId: "gates_humble",
-      },
+      "Step forward boldly — you have earned your place here",
+      "Kneel in humility — you are grateful, and you know what you are",
     ],
   },
 
   gates_bold: {
-    id: "gates_bold",
     title: "The Gate of Valor",
-    image: "https://picsum.photos/seed/pearl-gates-valor/1200/500",
     text: `The Guardian tilts its head. "Boldness," it says. There is something like respect in its voice — and something like a warning.
 
 You stand at the gates of Heaven themselves now. Pearl and gold and light so concentrated it has weight, pressing gently against your face. Between you and entry stands the Final Guardian — ancient beyond reckoning, its form shifting between human and something much larger.
@@ -153,18 +177,12 @@ It extends one vast hand, palm up, waiting. Not for a weapon. Not for a battle.
 
 For proof.`,
     battle: {
-      description:
-        "The Final Guardian demands proof of your worth. Roll 4 or higher on a d6 to be found worthy.",
-      diceMax: 6,
-      winMin: 4,
-      winNextId: "heaven_ending",
+      description: "The Final Guardian demands proof of your worth. Roll 4 or higher on a d6 to be found worthy.",
     },
   },
 
   gates_humble: {
-    id: "gates_humble",
     title: "The Gate of Grace",
-    image: "https://picsum.photos/seed/grace-kneeling-light/1200/500",
     text: `The Guardian pauses for a long moment after you kneel.
 
 "Humility," it says finally, and something in its voice has shifted — still careful, still measuring, but warmer. "That is rarer than most souls realize. Even here."
@@ -175,18 +193,12 @@ You approach the gates of Heaven, and the final Guardian who meets you is differ
 
 It is, in some ways, the hardest test of all — because you cannot fake it. You can only be exactly what you are and see if that is enough.`,
     battle: {
-      description:
-        "Prove the sincerity of your heart to the Gate Guardian. Roll 2 or higher on a d6 to enter.",
-      diceMax: 6,
-      winMin: 2,
-      winNextId: "heaven_ending",
+      description: "Prove the sincerity of your heart to the Gate Guardian. Roll 2 or higher on a d6 to enter.",
     },
   },
 
   heaven_ending: {
-    id: "heaven_ending",
     title: "Heaven Awaits",
-    image: "https://picsum.photos/seed/heaven-golden-peace/1200/500",
     text: `The gates open.
 
 Not with a crash or a fanfare. Not with trumpets or proclamation. They open the way a held breath finally releases — with the quiet exhale of something that has been waiting a very long time.
@@ -198,7 +210,58 @@ There are voices. Not in ceremony — in recognition. They knew you were coming.
 You step through, and the bridge and the shadow and the long uncertain journey collapse into something that was, it turns out, exactly the right length.
 
 You are home.`,
-    isEnding: true,
-    endingType: "good",
   },
 }
+
+// ─── Locale map ───────────────────────────────────────────────────────────────
+
+const translations: Record<string, StoryTranslation> = {
+  en: enStory,
+  "pt-BR": ptBRStory,
+}
+
+// ─── Public API ───────────────────────────────────────────────────────────────
+
+export function getStoryNodes(locale: string): Record<string, StoryNode> {
+  const t = translations[locale] ?? enStory
+
+  const nodes: Record<string, StoryNode> = {}
+
+  for (const s of NODE_STRUCTURE) {
+    const tr = t[s.id]
+    if (!tr) continue
+
+    const node: StoryNode = {
+      id: s.id,
+      title: tr.title,
+      text: tr.text,
+      image: s.image,
+      isEnding: s.isEnding,
+      endingType: s.endingType,
+    }
+
+    if (s.choices && tr.choices) {
+      node.choices = s.choices.map((c, i) => ({
+        text: tr.choices![i] ?? "",
+        nextId: c.nextId,
+      }))
+    }
+
+    if (s.battle && tr.battle) {
+      node.battle = {
+        description: tr.battle.description,
+        diceMax: s.battle.diceMax,
+        winMin: s.battle.winMin,
+        winMax: s.battle.winMax,
+        winNextId: s.battle.winNextId,
+      }
+    }
+
+    nodes[s.id] = node
+  }
+
+  return nodes
+}
+
+// Keep backward-compatible default for any existing imports that use STORY_NODES directly
+export const STORY_NODES = getStoryNodes("en")

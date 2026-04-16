@@ -1,5 +1,6 @@
 "use client"
 
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import type { PathStep } from "@/lib/story-engine"
@@ -11,6 +12,8 @@ interface JourneyPanelProps {
 }
 
 export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
+  const t = useTranslations("journey")
+
   if (!open) return null
 
   return (
@@ -18,16 +21,16 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
       className="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-background/95 backdrop-blur-sm animate-in fade-in duration-200"
       role="dialog"
       aria-modal="true"
-      aria-label="Journey so far"
+      aria-label={t("title")}
     >
       <div className="mx-auto w-full max-w-2xl px-4 py-6">
         {/* Header */}
         <div className="mb-8 flex items-start justify-between">
           <div>
             <p className="text-xs font-medium tracking-widest text-muted-foreground uppercase">
-              Your path
+              {t("yourPath")}
             </p>
-            <h2 className="text-2xl font-bold">Journey So Far</h2>
+            <h2 className="text-2xl font-bold">{t("title")}</h2>
           </div>
           <Button variant="ghost" size="icon" onClick={onClose} aria-label="Close journey">
             ✕
@@ -43,7 +46,6 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
 
             return (
               <li key={`${step.nodeId}-${i}`} className="relative flex gap-4">
-                {/* Left column: dot + connector */}
                 <div className="flex flex-col items-center">
                   <div
                     className={cn(
@@ -60,15 +62,12 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
                   >
                     {i + 1}
                   </div>
-                  {/* Vertical connector */}
                   {!isLast && (
                     <div className="mt-1 w-px flex-1 bg-border" style={{ minHeight: "2rem" }} />
                   )}
                 </div>
 
-                {/* Right column: content */}
                 <div className="mb-2 min-w-0 flex-1 pb-4">
-                  {/* Node card */}
                   <div
                     className={cn(
                       "overflow-hidden rounded-lg border",
@@ -99,14 +98,13 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
                         {step.title}
                         {isCurrent && (
                           <span className="ml-2 text-xs font-normal text-muted-foreground">
-                            — current
+                            {t("current")}
                           </span>
                         )}
                       </p>
                     </div>
                   </div>
 
-                  {/* Exit connector: what the player chose or rolled */}
                   {step.exit && (
                     <div className="mt-2 flex items-center gap-1.5 pl-1 text-xs text-muted-foreground">
                       {step.exit.type === "choice" ? (
@@ -117,10 +115,7 @@ export function JourneyPanel({ path, open, onClose }: JourneyPanelProps) {
                       ) : (
                         <>
                           <span className="text-foreground/40">→</span>
-                          <span>
-                            Rolled <strong className="text-foreground">{step.exit.result}</strong>
-                            {" — Victory"}
-                          </span>
+                          <span>{t("rolledVictory", { result: step.exit.result })}</span>
                         </>
                       )}
                     </div>

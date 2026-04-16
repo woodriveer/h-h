@@ -1,5 +1,6 @@
 "use client"
 
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import type { Choice, StoryNode } from "@/lib/story-engine"
 
@@ -9,6 +10,8 @@ interface StorySceneProps {
 }
 
 export function StoryScene({ node, onChoice }: StorySceneProps) {
+  const t = useTranslations("scene")
+
   return (
     <div className="flex flex-col gap-6">
       <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
@@ -24,7 +27,7 @@ export function StoryScene({ node, onChoice }: StorySceneProps) {
         )}
         <div className="p-6">
           <p className="mb-1 text-xs font-medium tracking-widest text-muted-foreground uppercase">
-            Chapter
+            {t("chapter")}
           </p>
           <h1 className="mb-5 text-2xl font-bold text-card-foreground">{node.title}</h1>
           <div className="space-y-4">
@@ -39,7 +42,7 @@ export function StoryScene({ node, onChoice }: StorySceneProps) {
 
       <div className="flex flex-col gap-2">
         <p className="text-xs font-medium tracking-widest text-muted-foreground uppercase">
-          What do you do?
+          {t("what")}
         </p>
         {node.choices.map((choice) => (
           <Button

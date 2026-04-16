@@ -1,4 +1,6 @@
 import { Geist_Mono, Inter } from "next/font/google"
+import { getMessages, getLocale } from "next-intl/server"
+import { NextIntlClientProvider } from "next-intl"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -18,7 +20,12 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const supabase = await createClient()
+  const [supabase, messages, locale] = await Promise.all([
+    createClient(),
+    getMessages(),
+    getLocale(),
+  ])
+
   const {
     data: { user },
   } = await supabase.auth.getUser()
@@ -35,17 +42,19 @@ export default async function RootLayout({
 
   return (
     <html
-      lang="en"
+      lang={locale}
       suppressHydrationWarning
       className={cn("antialiased", fontMono.variable, "font-sans", inter.variable)}
     >
       <body>
-        <ThemeProvider>
-          <header className="fixed top-0 right-0 z-30 p-3">
-            <UserMenu profile={profile} />
-          </header>
-          {children}
-        </ThemeProvider>
+        <NextIntlClientProvider messages={messages}>
+          <ThemeProvider>
+            <header className="fixed top-0 right-0 z-30 p-3">
+              <UserMenu profile={profile} />
+            </header>
+            {children}
+          </ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   )
