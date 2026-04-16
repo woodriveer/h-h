@@ -54,6 +54,9 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.5
+      '@parcel/watcher-linux-x64-glibc':
+        specifier: ^2.5.6
+        version: 2.5.6
       '@tailwindcss/postcss':
         specifier: ^4.2.1
         version: 4.2.2
@@ -4617,8 +4620,7 @@ snapshots:
   '@parcel/watcher-linux-arm64-musl@2.5.6':
     optional: true
 
-  '@parcel/watcher-linux-x64-glibc@2.5.6':
-    optional: true
+  '@parcel/watcher-linux-x64-glibc@2.5.6': {}
 
   '@parcel/watcher-linux-x64-musl@2.5.6':
     optional: true
