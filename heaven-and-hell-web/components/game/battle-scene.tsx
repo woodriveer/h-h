@@ -23,45 +23,17 @@ function DiceFace({
   phase: Phase
   won: boolean | null
 }) {
-  const [blurFrame, setBlurFrame] = useState(0)
-
-  useEffect(() => {
-    if (phase !== "rolling") return
-    const id = setInterval(() => {
-      setBlurFrame((f) => (f + 1) % 5)
-    }, 60)
-    return () => clearInterval(id)
-  }, [phase])
-
-  // Map result or blur frame to spritesheet index (5x5 grid)
-  let frameIndex = 19 // Default face '20'
-  if (phase === "rolling") {
-    frameIndex = 20 + blurFrame
-  } else if (display !== null) {
-    // If we have a result, show that face. 
-    // If the dice is not a d20 (e.g. d6), we still use the d20 faces 1-6.
-    frameIndex = Math.min(Math.max(display, 1), 20) - 1
-  }
-
-  const row = Math.floor(frameIndex / 5)
-  const col = frameIndex % 5
-
   return (
-    <div className="relative flex h-32 w-32 items-center justify-center">
-      <div
-        className={cn(
-          "h-full w-full bg-no-repeat transition-all duration-300",
-          phase === "rolling" && "animate-bounce scale-110",
-          phase === "result" && won === true && "drop-shadow-[0_0_20px_rgba(34,197,94,0.5)] scale-110",
-          phase === "result" && won === false && "grayscale brightness-75 opacity-90 scale-95",
-          phase === "ready" && "opacity-60 grayscale scale-90",
-        )}
-        style={{
-          backgroundImage: 'url("/assets/d20-spritesheet.png")',
-          backgroundSize: "500% 500%",
-          backgroundPosition: `${col * 25}% ${row * 25}%`,
-        }}
-      />
+    <div
+      className={cn(
+        "flex h-24 w-24 items-center justify-center rounded-2xl border-2 text-4xl font-black shadow-lg transition-all duration-300",
+        phase === "ready" && "border-border bg-card text-muted-foreground",
+        phase === "rolling" && "animate-bounce border-amber-500 bg-amber-500/10 text-amber-500",
+        phase === "result" && won === true && "border-green-500 bg-green-500/10 text-green-500",
+        phase === "result" && won === false && "border-destructive bg-destructive/10 text-destructive",
+      )}
+    >
+      {display ?? "?"}
     </div>
   )
 }
