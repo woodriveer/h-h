@@ -6,8 +6,11 @@ import { StoryScene } from "@/components/game/story-scene"
 import { BattleScene } from "@/components/game/battle-scene"
 import { EndingScene } from "@/components/game/ending-scene"
 import { JourneyPanel } from "@/components/game/journey-panel"
+import { CharacterSelect } from "@/components/game/character-select"
 import { Button } from "@/components/ui/button"
 import { saveGameResult } from "@/app/actions/save-game-result"
+import { HEROES } from "@/lib/hero-data"
+import type { Hero } from "@/lib/hero-data"
 import type { Choice, PathStep, StoryNode } from "@/lib/story-engine"
 
 function makeStep(node: StoryNode): PathStep {
@@ -21,18 +24,18 @@ function makeStep(node: StoryNode): PathStep {
 
 interface GameClientProps {
   storyNodes: Record<string, StoryNode>
-  startingNode: string
 }
 
-export function GameClient({ storyNodes, startingNode }: GameClientProps) {
+export function GameClient({ storyNodes }: GameClientProps) {
   const t = useTranslations("game")
 
-  const [nodeId, setNodeId] = useState(startingNode)
-  const [path, setPath] = useState<PathStep[]>([makeStep(storyNodes[startingNode])])
+  const [selectedHero, setSelectedHero] = useState<Hero | null>(null)
+  const [nodeId, setNodeId] = useState<string | null>(null)
+  const [path, setPath] = useState<PathStep[]>([])
   const [showJourney, setShowJourney] = useState(false)
   const savedRef = useRef(false)
 
-  const node: StoryNode | undefined = storyNodes[nodeId]
+  const node: StoryNode | undefined = nodeId ? storyNodes[nodeId] : undefined
 
   useEffect(() => {
     if (node?.isEnding && node.endingType && !savedRef.current) {
@@ -40,6 +43,27 @@ export function GameClient({ storyNodes, startingNode }: GameClientProps) {
       saveGameResult(node.endingType, node.title, path)
     }
   }, [node, path])
+
+  const handleHeroSelect = (hero: Hero) => {
+    const startNode = storyNodes[hero.startNode]
+    if (!startNode) return
+    setSelectedHero(hero)
+    setNodeId(hero.startNode)
+    setPath([makeStep(startNode)])
+    savedRef.current = false
+  }
+
+  const handleRestart = () => {
+    setSelectedHero(null)
+    setNodeId(null)
+    setPath([])
+    setShowJourney(false)
+    savedRef.current = false
+  }
+
+  if (!selectedHero || !nodeId) {
+    return <CharacterSelect heroes={HEROES} onSelect={handleHeroSelect} />
+  }
 
   if (!node) {
     return (
@@ -73,14 +97,6 @@ export function GameClient({ storyNodes, startingNode }: GameClientProps) {
       return [...updated, makeStep(nextNode)]
     })
     setNodeId(nextId)
-  }
-
-  const handleRestart = () => {
-    const startNode = storyNodes[startingNode]
-    setNodeId(startingNode)
-    setPath([makeStep(startNode)])
-    setShowJourney(false)
-    savedRef.current = false
   }
 
   return (

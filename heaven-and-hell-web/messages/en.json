@@ -82,6 +82,14 @@
     "sign-up-button": "Sign up",
     "sign-out-button": "Sign out"
   },
+  "characterSelect": {
+    "title": "Choose Your Hero",
+    "subtitle": "A Vanguarda da Terra",
+    "startButton": "Start Mission",
+    "locked": "Coming Soon",
+    "selectPrompt": "Select a hero to begin",
+    "keyboardHint": "← → Arrow keys to navigate · Enter to confirm"
+  },
   "share": {
     "button": "Share on X",
     "text": "I just reached \"{title}\" ({label}) in Heaven & Hell \u2014 a branching story of fate. #HeavenAndHell"

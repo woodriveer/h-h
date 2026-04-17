@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -28,10 +29,11 @@ export function EndingScene({ node, path, onRestart }: EndingSceneProps) {
       >
         {node.image && (
           <div className="relative h-52 w-full overflow-hidden">
-            <img
+            <Image
               src={node.image}
               alt={node.title}
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-700 hover:scale-105"
             />
             <div
               className={cn(

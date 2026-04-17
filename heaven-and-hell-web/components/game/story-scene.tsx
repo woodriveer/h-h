@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import type { Choice, StoryNode } from "@/lib/story-engine"
@@ -17,10 +18,12 @@ export function StoryScene({ node, onChoice }: StorySceneProps) {
       <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
         {node.image && (
           <div className="relative h-52 w-full overflow-hidden">
-            <img
+            <Image
               src={node.image}
               alt={node.title}
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-700 hover:scale-105"
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-card/70 to-transparent" />
           </div>

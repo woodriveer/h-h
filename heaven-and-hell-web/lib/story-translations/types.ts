@@ -1,6 +1,6 @@
 export interface StoryNodeTranslation {
   title: string
-  text: string
+  text?: string
   choices?: string[]          // ordered by choice index
   battle?: { description: string }
 }

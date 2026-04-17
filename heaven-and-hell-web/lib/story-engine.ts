@@ -15,7 +15,7 @@ export interface StoryNode {
   id: string
   title: string
   text: string
-  image?: string
+  image?: any // eslint-disable-line @typescript-eslint/no-explicit-any
   choices?: Choice[]
   battle?: Battle
   isEnding?: boolean
@@ -29,7 +29,7 @@ export type PathStepExit =
 export interface PathStep {
   nodeId: string
   title: string
-  image?: string
+  image?: any // eslint-disable-line @typescript-eslint/no-explicit-any
   endingType?: "good" | "bad"
   exit?: PathStepExit
 }

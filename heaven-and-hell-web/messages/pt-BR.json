@@ -82,6 +82,14 @@
     "sign-up-button": "Cadastrar",
     "sign-out-button": "Sair"
   },
+  "characterSelect": {
+    "title": "Escolha seu Herói",
+    "subtitle": "A Vanguarda da Terra",
+    "startButton": "Iniciar Missão",
+    "locked": "Em Breve",
+    "selectPrompt": "Selecione um herói para começar",
+    "keyboardHint": "← → Setas para navegar · Enter para confirmar"
+  },
   "share": {
     "button": "Compartilhar no X",
     "text": "Acabei de chegar em \"{title}\" ({label}) em Céu & Inferno \u2014 uma história de escolhas e destino. #CeuEInferno"
