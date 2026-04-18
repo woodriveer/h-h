@@ -5,15 +5,16 @@ import { useState, useEffect, useCallback } from "react"
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import type { Hero } from "@/lib/hero-data"
+import type { HeroConfig } from "@/lib/hero-config"
 
 interface CharacterSelectProps {
-  heroes: Hero[]
-  onSelect: (hero: Hero) => void
+  heroes: HeroConfig[]
+  onSelect: (hero: HeroConfig) => void
 }
 
 export function CharacterSelect({ heroes, onSelect }: CharacterSelectProps) {
   const t = useTranslations("characterSelect")
+  const tChar = useTranslations("characters")
   const availableHeroes = heroes.filter((h) => h.available)
 
   const [highlightedId, setHighlightedId] = useState<string>(availableHeroes[0]?.id ?? "")
@@ -78,7 +79,7 @@ export function CharacterSelect({ heroes, onSelect }: CharacterSelectProps) {
               onDoubleClick={() => {
                 if (isAvailable) onSelect(hero)
               }}
-              aria-label={hero.name}
+              aria-label={tChar(`${hero.id}.name` as never)}
               aria-pressed={isSelected}
               className={cn(
                 "relative w-28 h-40 sm:w-32 sm:h-48 rounded-lg overflow-hidden border-2 transition-all duration-200 focus:outline-none",
@@ -93,9 +94,9 @@ export function CharacterSelect({ heroes, onSelect }: CharacterSelectProps) {
               {hero.image ? (
                 <Image
                   src={hero.image}
-                  alt={hero.name}
+                  alt={tChar(`${hero.id}.name` as never)}
                   fill
-                  sizes="128px"
+                  sizes="720px"
                   className="object-cover object-top"
                   priority
                 />
@@ -115,7 +116,7 @@ export function CharacterSelect({ heroes, onSelect }: CharacterSelectProps) {
                 )}
               >
                 <p className="text-[10px] sm:text-xs font-bold text-white leading-tight truncate">
-                  {hero.name.split(/[\s,]/)[0]}
+                  {tChar(`${hero.id}.name` as never).split(/[\s,]/)[0]}
                 </p>
               </div>
 
@@ -143,13 +144,13 @@ export function CharacterSelect({ heroes, onSelect }: CharacterSelectProps) {
       >
         {highlighted ? (
           <div className="text-center space-y-1">
-            <h2 className="text-lg sm:text-xl font-bold">{highlighted.name}</h2>
+            <h2 className="text-lg sm:text-xl font-bold">{tChar(`${highlighted.id}.name` as never)}</h2>
             <p className="text-xs sm:text-sm font-medium text-primary uppercase tracking-wide">
-              {highlighted.class}
+              {tChar(`${highlighted.id}.class` as never)}
             </p>
-            <p className="text-sm text-muted-foreground italic mt-2">{highlighted.vibe}</p>
+            <p className="text-sm text-muted-foreground italic mt-2">{tChar(`${highlighted.id}.vibe` as never)}</p>
             <p className="text-sm leading-relaxed mt-3 text-foreground/80">
-              {highlighted.combatStyle}
+              {tChar(`${highlighted.id}.combatStyle` as never)}
             </p>
           </div>
         ) : (

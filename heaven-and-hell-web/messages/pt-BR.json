@@ -52,6 +52,38 @@
     "description": "Enviamos um link de confirmação para **{email}**. Clique nele para ativar sua conta.",
     "back": "Voltar"
   },
+  "characters": {
+    "valerius": {
+      "name": "Valerius Bolt",
+      "class": "Valquíria Coroada pela Tempestade",
+      "vibe": "'Eu sou o raio e o trovão.'",
+      "combatStyle": "Ataques aéreos de alta mobilidade e lanças de relâmpago perfurantes."
+    },
+    "thalassa": {
+      "name": "Thalassa 'A Raiz'",
+      "class": "Guardiã Primordial",
+      "vibe": "'Sai do meu jardim... e do meu planeta.'",
+      "combatStyle": "Controle de multidão com vinhas sencientes e pancadas pesadas de cajado."
+    },
+    "krell": {
+      "name": "Krell, o Inquebrantável",
+      "class": "Juggernaut Rúnico",
+      "vibe": "'Esse portal parece socável? Parece.'",
+      "combatStyle": "Força física bruta infundida com runas cinéticas crepitantes."
+    },
+    "xandros": {
+      "name": "Arquivista Xandros",
+      "class": "Mago de Batalha Eldrítico",
+      "vibe": "'Eu li sobre isso num livro. Termina muito mal pra você.'",
+      "combatStyle": "Conjuração tática, armadilhas de glifos e feixes de energia de longo alcance."
+    },
+    "seraphina": {
+      "name": "Seraphina Noir",
+      "class": "Inquisidora Forjada no Inferno",
+      "vibe": "'Confiar é difícil. Trair é fácil.'",
+      "combatStyle": "Furtividade, dual wield de adagas sagradas com uma pitada demoníaca."
+    }
+  },
   "profile": {
     "player": "Jogador",
     "games_played": "Jogos",

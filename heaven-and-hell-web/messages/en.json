@@ -52,6 +52,38 @@
     "description": "We sent a confirmation link to **{email}**. Click it to activate your account.",
     "back": "Back"
   },
+  "characters": {
+    "valerius": {
+      "name": "Valerius Bolt",
+      "class": "Storm-Crowned Valkyrie",
+      "vibe": "'I am the lightning and the thunder.'",
+      "combatStyle": "High-mobility aerial attacks and piercing lightning spears."
+    },
+    "thalassa": {
+      "name": "Thalassa 'The Root'",
+      "class": "Primordial Guardian",
+      "vibe": "'Get out of my garden... and off my planet.'",
+      "combatStyle": "Crowd control with sentient vines and heavy staff slams."
+    },
+    "krell": {
+      "name": "Krell the Unbreakable",
+      "class": "Runic Juggernaut",
+      "vibe": "'Does this portal look punchable? It looks punchable.'",
+      "combatStyle": "Raw physical might infused with crackling kinetic runes."
+    },
+    "xandros": {
+      "name": "Archivist Xandros",
+      "class": "Eldritch Battlemage",
+      "vibe": "'I read about this in a book. It ends badly for you.'",
+      "combatStyle": "Tactical conjuration, glyph traps, and long-range energy beams."
+    },
+    "seraphina": {
+      "name": "Seraphina Noir",
+      "class": "Hell-Forged Inquisitor",
+      "vibe": "'Trust is hard. Betrayal is easy.'",
+      "combatStyle": "Stealth, dual-wielding sacred daggers with a demonic edge."
+    }
+  },
   "profile": {
     "player": "Player",
     "games_played": "Games Played",

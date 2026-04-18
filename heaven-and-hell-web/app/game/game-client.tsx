@@ -9,8 +9,8 @@ import { JourneyPanel } from "@/components/game/journey-panel"
 import { CharacterSelect } from "@/components/game/character-select"
 import { Button } from "@/components/ui/button"
 import { saveGameResult } from "@/app/actions/save-game-result"
-import { HEROES } from "@/lib/hero-data"
-import type { Hero } from "@/lib/hero-data"
+import { HERO_CONFIGS } from "@/lib/hero-config"
+import type { HeroConfig } from "@/lib/hero-config"
 import type { Choice, PathStep, StoryNode } from "@/lib/story-engine"
 
 function makeStep(node: StoryNode): PathStep {
@@ -29,7 +29,7 @@ interface GameClientProps {
 export function GameClient({ storyNodes }: GameClientProps) {
   const t = useTranslations("game")
 
-  const [selectedHero, setSelectedHero] = useState<Hero | null>(null)
+  const [selectedHero, setSelectedHero] = useState<HeroConfig | null>(null)
   const [nodeId, setNodeId] = useState<string | null>(null)
   const [path, setPath] = useState<PathStep[]>([])
   const [showJourney, setShowJourney] = useState(false)
@@ -44,7 +44,7 @@ export function GameClient({ storyNodes }: GameClientProps) {
     }
   }, [node, path])
 
-  const handleHeroSelect = (hero: Hero) => {
+  const handleHeroSelect = (hero: HeroConfig) => {
     const startNode = storyNodes[hero.startNode]
     if (!startNode) return
     setSelectedHero(hero)
@@ -62,7 +62,7 @@ export function GameClient({ storyNodes }: GameClientProps) {
   }
 
   if (!selectedHero || !nodeId) {
-    return <CharacterSelect heroes={HEROES} onSelect={handleHeroSelect} />
+    return <CharacterSelect heroes={HERO_CONFIGS} onSelect={handleHeroSelect} />
   }
 
   if (!node) {

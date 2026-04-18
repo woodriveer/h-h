@@ -8,7 +8,7 @@ Aqui está nosso time de cinco heróis. Temos uma mistura de pancadeiros pesados
 | Valerius Bolt | Valquíria Coroada pela Tempestade | ⚡ "Eu sou o raio e o trovão." | Ataques aéreos de alta mobilidade e lanças de relâmpago perfurantes. | 
 | Krell, o Inquebrantável | Juggernaut Rúnico | 💪 "Esse portal parece socável? Parece." | Força física bruta infundida com runas cinéticas crepitantes. | 
 | Arquivista Xandros | Mago de Batalha Eldrítico | 📖 "Eu li sobre isso num livro. Termina muito mal pra você." | Conjuração tática, armadilhas de glifos e feixes de energia de longo alcance. | 
-| Seraphina Noir | Inquisidora Forjada no Inferno | ⚖️ "Confiar é difícil. Trair é fácil." | (A carta fora do baralho!) Furtividade, dual wield de adagas sagradas com uma pitada demoníaca. | 
+| Seraphin Noir | Inquisidora Forjada no Inferno | ⚖️ "Confiar é difícil. Trair é fácil." | (A carta fora do baralho!) Furtividade, dual wield de adagas sagradas com uma pitada demoníaca. | 
 
 ## 🗺️ O Pipeline "Como-Salvar-o-Mundo"
 Já que estamos fazendo a abordagem de "Origens Individuais", aqui está o fluxo narrativo dos primeiros atos. É como um trabalho em grupo de alto risco onde ninguém sabe ainda que está no mesmo grupo! 🤝
@@ -33,7 +33,30 @@ graph TD
     D --> E[Ato 2: A Jornada aos Portões de Dis]
 ```
 
+
+## Heaven and Hell
+
+Heaven and Hell é um RPG focado em escolhas morais, gestão de confiança e as consequências brutais da invasão do Inferno na Terra.
+
+
 ## 📝 A Introdução: "Quem Deixou a Porta Aberta?"
+
+Gehenna, o submundo, um lugar de tormento e sofrimento, está em guerra consigo mesmo. Os demônios lutam entre si pelo poder e controle, após uma grande rebelião, os demonios prenderam o lúcifer em uma prisão interdimensional e agora decidiram invadir a terra com o propósito de destruir toda hieraquia de céu e inferno.
+
+Asmodeus, o demônio associado ao pecado da luxúria, com sua incontrolavel paixao e instintos carnais, é o líder da invasão. Ele é um demônio poderoso e astuto, e conseguiu persuadir seus irmãos, os outros 5 príncipes do inferno, a se juntarem a ele na invasão da terra.
+
+Belzebu, o demônio associado ao pecado da gula, possui uma fome insaciável por poder e controle, com seu poder te absorcao, ele consegue absorver a alma de seus inimigos e se tornar mais poderoso.
+
+Mammon, o demônio associado ao pecado da avareza, aceitou a proposta de asmodeus sem pensar duas vezes, afinal, na terra ele poderia roubar todas as almas que quisesse.
+
+Azazel, o demônio associado ao pecado da ira, com seu poder de destruição, foi essencial para abertura dos portões de Gehenna.
+
+Leviatã, o demônio associado ao pecado da inveja, conhecido por ser um monstro marinho, tem um papel fundamental na invasão pelo mar na terra.
+
+Belphegor, o demônio associado ao pecado da preguiça, só quer ver o caos desde que não tenha que fazer nada.
+
+Agora que nossos vilões foram apresentados, e o principe dos demonios, Lúcifer, está preso a invasão da terra está prestes a começar.
+
 O céu não caiu; ele ficou da cor de um roxo pisado e começou a vazar demônios. 😈
 
 Tudo começou ao Meio-Dia. Pelo mundo inteiro, os "Portões de Geena" se manifestaram — estruturas colossais de obsidiana e osso que cheiravam vagamente a enxofre e arrependimento. Para a maioria das pessoas, era o fim do mundo. Para os nossos heróis, era uma entrevista de emprego para a qual nunca se inscreveram.
