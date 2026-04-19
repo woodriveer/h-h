@@ -114,7 +114,7 @@ const NODE_STRUCTURE: NodeStructure[] = [
   // Path B — Mantenha seus Inimigos por Perto
   {
     id: "valerius_let_go",
-    image: "https://picsum.photos/seed/portal-closing-demons-retreat/1200/500",
+    image: "/assets/valerius_let_go.png",
     choices: [{ nextId: "valerius_spy" }],
   },
   {

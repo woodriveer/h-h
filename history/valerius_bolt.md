@@ -1,92 +1,6 @@
-# A Legião do Abismo
-
-Gênero: Fantasia Épica / Comédia Sombria
-Classificação: 16+
-
-## Sinopse
-
-Desde que o universo foi criado, uma ordem frágil mas funcional separava os três planos da existência: o Éter, o Meio e o Abismo. Frágil porque dependia, em grande parte, de Lúcifer — o único ser temido o suficiente para manter os demônios em linha. Funcional porque, bem, ninguém havia tentado derrubá-la ainda.
-Até agora.
-Após uma rebelião que surpreendeu até os próprios rebeldes pela sua eficiência, os seis Príncipes do Pecado aprisionaram Lúcifer numa prisão interdimensional e voltaram seus olhares ambiciosos para a Terra. O plano é simples: invadir, destruir a hierarquia celestial e infernal de uma vez por todas, e reconstruir o cosmos segundo seus próprios — e muito discutíveis — valores.
-À frente da invasão está Asmodeus, irresistível e implacável. Ao seu lado: um demônio que devora almas como aperitivo, outro que já está calculando o valor de mercado da humanidade, um destruidor que expressa seus sentimentos exclusivamente através de explosões, um leviatã ciumento que vai emergir pelos oceanos, e um príncipe da preguiça que topou tudo desde que não precisasse levantar da cama.
-O que poderia dar errado?
-Tudo. Absolutamente tudo.
-
-## Sobre a obra
-Escrita no estilo das grandes narrativas épicas de fantasia — com a riqueza de mundo e a seriedade de voz características de Tolkien — As Legiões do Abismo subverte o gênero ao colocar seus vilões no centro da história. Aqui, o mal não é uma força sombria e monolítica: é uma coleção de personalidades incompatíveis, motivações contraditórias e egos descomunais tentando, contra todas as probabilidades, trabalhar em equipe.
-A obra explora, com humor sombrio e afeto genuíno pelos seus personagens improváveis, temas como poder, ambição, identidade e o que acontece quando criaturas definidas por seus pecados tentam construir algo juntas — sem matar umas às outras primeiro.
-
-## Por que ler?
-
-Vilões carismáticos e genuinamente engraçados no centro da narrativa
-Worldbuilding rico, com mitologia própria e lore profundo
-Humor inteligente que não sacrifica a épica
-Personagens que você vai odiar amar — e amar odiar
-Uma visão original do inferno, do céu e de tudo que fica no meio
-
-## 🛡️ A Vanguarda da Terra: Os "Porta-Crashers"
-Aqui está nosso time de cinco heróis. Temos uma mistura de pancadeiros pesados, desastres elementais e um cara que definitivamente passou tempo demais na biblioteca.
-
-| Herói | Classe | Vibe Check | Estilo de Combate | 
-| --- | --- | --- | --- | 
-| Thalassa "A Raiz" | Guardiã Primordial | 🌿 "Sai do meu jardim... e do meu planeta." | Controle de multidão com vinhas sencientes e pancadas pesadas de cajado. | 
-| Valerius Bolt | Valquíria Coroada pela Tempestade | ⚡ "Eu sou o raio e o trovão." | Ataques aéreos de alta mobilidade e lanças de relâmpago perfurantes. | 
-| Krell, o Inquebrantável | Juggernaut Rúnico | 💪 "Esse portal parece socável? Parece." | Força física bruta infundida com runas cinéticas crepitantes. | 
-| Arquivista Xandros | Mago de Batalha Eldrítico | 📖 "Eu li sobre isso num livro. Termina muito mal pra você." | Conjuração tática, armadilhas de glifos e feixes de energia de longo alcance. | 
-| Seraphin Noir | Inquisidora Forjada no Inferno | ⚖️ "Confiar é difícil. Trair é fácil." | (A carta fora do baralho!) Furtividade, dual wield de adagas sagradas com uma pitada demoníaca. | 
-
-## 🗺️ O Pipeline "Como-Salvar-o-Mundo"
-Já que estamos fazendo a abordagem de "Origens Individuais", aqui está o fluxo narrativo dos primeiros atos. É como um trabalho em grupo de alto risco onde ninguém sabe ainda que está no mesmo grupo! 🤝
-
-```mermaid
-graph TD
-    A[Prólogo: A Grande Brecha] --> B1[Thalassa - Capítulo 1: A Floresta em Chamas]
-    A --> B2[Valerius - Capítulo 1: Os Picos Estilhaçados]
-    A --> B3[Krell - Capítulo 1: A Cidade em Ruínas]
-    A --> B4[Xandros - Capítulo 1: A Biblioteca Arcana]
-    A --> B5[Seraphina - Capítulo 1: Os Portões das Sombras]
-    
-    B1 --> C[A Convergência: A Encruzilhada do Destino]
-    B2 -->V1A[Valerius - Capítulo 2.1: A Batalha contra a horda de demônios]
-    B2 -->V1B[Valerius - Capítulo 2.2: Mantenha seus inimigos por perto]
-    B2 --> C
-    B3 --> C
-    B4 --> C
-    B5 --> C
-    
-    C --> D{A Mecânica da Confiança}
-    D --> E[Ato 2: A Jornada aos Portões de Dis]
-```
-
-
-## Heaven and Hell
-
-Heaven and Hell é um RPG focado em escolhas morais, gestão de confiança e as consequências brutais da invasão do Inferno na Terra.
-
-
-## 📝 O Prólogo: [O Tumulto das Profundezas](/history/o_tumulto_das_profundezas.md)
-
-## Capítulo 1: [O primeiro portão no ponto mais alto do Meio](/history/valerius_bolt.md)
-
-O céu não caiu; ele ficou da cor de um roxo pisado e começou a vazar demônios. 😈
-
-Tudo começou ao Meio-Dia. Pelo mundo inteiro, os "Portões de Geena" se manifestaram — estruturas colossais de obsidiana e osso que cheiravam vagamente a enxofre e arrependimento. Para a maioria das pessoas, era o fim do mundo. Para os nossos heróis, era uma entrevista de emprego para a qual nunca se inscreveram.
-
-**Thalassa** está atualmente ocupada transformando uma horda de Cães do Inferno em adubo no Bosque Sagrado. 🌳
+# Valerius Bolt - Capítulo 1: Os Picos Estilhaçados
 
 **Valerius** está atualmente dando um "choque de realidade" em demônios estagiários no topo dos Picos Estilhaçados. ⚡🏔️
-
-**Krell** está literalmente segurando um portal fechado com as próprias mãos porque está irritado demais para deixá-lo abrir. 😤
-
-**Xandros** está desesperadamente procurando um feitiço de "Dispensar o Mal Maior" enquanto sua biblioteca queima ao redor dele. 📚
-
-**Seraphina**? Ela está observando das sombras, pensando em qual lado vai pagar melhor... ou qual vai precisar ser esfaqueado primeiro. 🗡️
-
-A virada? Os Céus não estão vindo ajudar. Os Portões Dourados estão trancados a sete chaves. Parece que os Anjos decidiram "trabalhar de home office" enquanto a Terra queima. 😇🚫
-
-De qual perspectiva de herói vamos mergulhar primeiro para fechar o respectivo portão? 🎮✨
-
-Muito bem, Jogador 1! Você escolheu Valerius Bolt, o para-raios humano com atitude. ⚡️
 
 Estamos bem acima dos Picos Estilhaçados, onde o ar é rarefeito, os raios são frequentes e, aparentemente, o GPS demoníaco está com defeito. Valerius está em uma saliência precária, lança crepitante, quando dois demônios — que parecem mais confusos do que assassinos — tropeçam para fora de uma fenda cintilante. 🌀
 
@@ -103,23 +17,27 @@ Estamos bem acima dos Picos Estilhaçados, onde o ar é rarefeito, os raios são
 
 **Malphas** (Demônio B): "Terra? Que nojo. Ouvi dizer que eles têm 'imposto de renda' e 'ansiedade social' por aqui. Olha, moça, se você só nos apontar de volta pro portal mais próximo, a gente some. Somos só estagiários, juro. Nem plano odontológico a gente tem."
 
-## 🎮 A ESCOLHA É SUA
-Valerius está na beira do penhasco. O vento está uivando e a lança dela está faminta por uma descarga. Como vamos lidar com esses "estagiários" do submundo?
+## ⚔️ A Batalha: "Raio vs. Relutância"
 
-| Opção | Ação | Consequência Provável |
-| --- | --- | --- |
-| **Opção A** | "Choque e Pavor" (Lutar) | ⚡️ Você os reduz a cinzas. Mas espera! Antes da faísca final, eles mandam uma "avaliação de 1 estrela" de volta pro Inferno, avisando todo mundo que a Terra é picante e precisa de reforços. |
-| **Opção B** | "Devolva ao Remetente" (Deixar ir) | 🚪 Você os deixa coxear de volta pelo portão e o fecha atrás deles. O Porém: Eles ficam vivos, e embora pareçam inofensivos agora, talvez apareçam no pior momento possível pra estragar o seu dia. |
+**Valerius**: [Soltando uma risada que soa como pedras rolando] "Vocês não entenderam. Aqui não tem 'voltar'. Tem só 'ficar'... ou 'virar adubo'." [Ela gira a lança, e o ar ao redor crepita com energia azul.] "Então, vamos fazer isso do jeito fácil. Joguem as armas — ou o que quer que vocês usem para não fazer nada — e me digam quem mandou vocês."
 
-## ⚡ CAMINHO A: A Rota do "Zapa Primeiro, Pergunta Nunca"
-Nessa versão, Valerius decide que o único demônio bom é um demônio aterrado. Mas esses não são mobs de lixo comuns; eles têm uns truques na manga encardida.
+**Slag**: [Olhando para Malphas com pânico] "A gente fala! A gente fala! Foi o Belzebu! Ele disse que era uma 'missão de reconhecimento de campo com potencial de buffet'. Mas acho que ele quis dizer 'missão de virar comida de raio'."
 
-### ⚔️ Encontro de Batalha: Valerius vs. Os Estagiários Perdidos
+**Malphas**: "Eu avisei que devíamos ter ido para a filial de 'Invasão de Castelos'. Lá pelo menos tem paredes pra se esconder!"
 
-| Entidade | Habilidade Especial | Efeito |
-| --- | --- | --- |
-| **Slag** | Aura de Isolamento | Um buff passivo que reduz o dano de Raio em 50%. 🧤 |
-| **Malphas** | Para-Raios | Uma habilidade canalizada que redireciona os raios de Valerius para a terra. ⚡️🚫 |
+**Valerius**: [Balançando a cabeça, um sorriso cansado no rosto] "Belzebu, é? Claro que é. Aquele glutão sempre quis um buffet sem filas. Bem, vocês não vão chegar nem perto dele."
+
+[Valerius salta, a lança brilhando intensamente. Slag e Malphas gritam em uníssono — um grito agudo e agoniado que ecoa pelos picos.]
+
+**Slag**: "SOCORRO! TEM UMA MULHER COM RAIO AQUI!"
+
+**Malphas**: "EU QUERO MEU PLANO ODONTOLÓGICO!"
+
+[Um flash ofuscante de luz azul ilumina os picos. Quando a luz diminui, Slag e Malphas não são mais demônios. São apenas duas poças de gosma fumegante no chão, com um cheiro fraco de ozônio e arrependimento.]
+
+**Valerius**: [Limpando a lança em sua calça] "Missão cumprida. Agora, sobre o aluguel..." [Ela olha para o mapa de cabeça pra baixo que Slag deixou cair.] "Buffet Eterno? Sério? Que falta de criatividade."
+
+[Ela joga o mapa no chão e pisa nele, apagando o último vestígio de esperança demoníaca nos Picos Estilhaçados.]
 
 **A Luta:**
 Valerius avança, mas a pele de Slag fica de um cinza fosco e emborrachado. A lança ricocheteia! Malphas ri, enfiando um bastão de ferro serrilhado na falésia que suga seu raio em cadeia direto do ar. É uma batalha extenuante, forçando Valerius a usar a lança de forma física em vez de apenas seus zaps chamativo. Por fim, com uma pancada devastadora de cima pra baixo, ela destroça o bastão e perfura os dois demônios.
@@ -131,22 +49,6 @@ Enquanto Malphas cospe icor preto, ele rabisca freneticamente num pedaço de per
 
 Ele joga o papel para o ar. Ele se transforma num aviãozinho de papel em chamas e dispara pela fenda que fecha. Do outro lado, um enorme Comandante da Fossa de quatro braços o pega, lê, e sorri. De repente, o céu sobre os Picos fica vermelho-sangue. Uma Horda está vindo para Valerius. 🏃‍♀️💨
 
-## 👣 CAMINHO B: A Rota do "Mantenha Seus Inimigos por Perto"
-Valerius abaixa a lança. "Tá bom. Fechem esse buraco e somam. Se eu ver vocês de novo, faço um casaco com as asas de vocês." Os demônios correm pelo portal, gaguejando agradecimentos.
-
-### 🕵️‍♂️ Missão Furtiva: Rastreando a Debandada
-Valerius não confia neles nem um segundo. Ela ativa o Manto Estático (que borra sua silhueta) e os segue pelo portal que fecha no último milissegundo.
-
-**A Descoberta:**
-Ela segue os dois idiotas enquanto eles caminham em direção ao "Buffet Eterno". Não é um restaurante. É um vale — e está apinhado de portões.
-
-**O que ela vê:** Em vez de uma pequena brecha, há dúzias de arcos de obsidiana.
-
-**A Escala:** Milhares de demônios se organizam em fileiras. Não é uma incursão; é uma colonização em grande escala. 🛡️👹
-
-**A Realização:** Slag e Malphas eram só a ponta do iceberg. Valerius percebe que não consegue enfrentar isso sozinha. Ela precisa dos outros.
-
-## ⚡ SEQUÊNCIA CAMINHO A — "Tempestade Singular" 
 Picos Estilhaçados. Altitude: 3.200m. Temperatura: Infernal.
 
 O céu virou sangue.
@@ -261,35 +163,3 @@ Ela desceu. Exausta. Sem raios. Sem recursos.
 Com uma lança, um sinal enviado, e a certeza de que o que havia visto nos vales era grande demais para enfrentar sozinha.
 
 Suficiente, decidiu. Por hoje, suficiente.
-
-
-E agora, o mermaid atualizado com a árvore de Valerius encerrada:
-
-```mermaid
-graph TD
-    A[Prólogo: A Grande Brecha] --> B1[Thalassa - Capítulo 1: A Floresta em Chamas]
-    A --> B2[Valerius - Capítulo 1: Os Picos Estilhaçados]
-    A --> B3[Krell - Capítulo 1: A Cidade em Ruínas]
-    A --> B4[Xandros - Capítulo 1: A Biblioteca Arcana]
-    A --> B5[Seraphina - Capítulo 1: Os Portões das Sombras]
-
-    B2 --> V1A[Capítulo 2.1: A Batalha contra a Horda]
-    V1A --> V2A[Fase 1: O Funil - Doze demônios no abismo]
-    V2A --> V3A[Fase 2: A Dança - O Comandante derrotado]
-    V3A --> V4A[Fase 3: A Fuga - Sem energia, só instinto]
-    V4A --> V5A[Clímax: O Pico - A tempestade como arma final]
-    V5A --> V6A[Epílogo: O Sinal enviado - Descida ao vale]
-
-    B2 --> V1B[Capítulo 2.2: Mantenha seus Inimigos por Perto]
-
-    V6A --> C
-    V1B --> C
-
-    B1 --> C[A Convergência: A Encruzilhada do Destino]
-    B3 --> C
-    B4 --> C
-    B5 --> C
-
-    C --> D{A Mecânica da Confiança}
-    D --> E[Ato 2: A Jornada aos Portões de Dis]
-```
