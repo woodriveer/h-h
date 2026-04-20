@@ -1,165 +1,154 @@
-# Valerius Bolt - Capítulo 1: Os Picos Estilhaçados
+# Capítulo I — A Valquíria dos Picos Estilhaçados
 
-**Valerius** está atualmente dando um "choque de realidade" em demônios estagiários no topo dos Picos Estilhaçados. ⚡🏔️
+Entre todos os lugares do Meio nos quais alguém poderia escolher passar uma tarde, os Picos Estilhaçados eram, por consenso geral de cartógrafos, estrategistas e qualquer pessoa com coluna vertebral saudável, os menos recomendáveis.
+Não havia estradas. Não havia abrigo. Não havia nada além de granito, vento cortante e a convicção geológica inabalável de que o mundo era um lugar vertical e que quem não gostasse disso estava livre para viver no vale como todo o resto. As agulhas de rocha erguiam-se do chão como dedos quebrados apontando acusatoriamente para a Luz — uma blasfêmia em pedra, talvez, ou simplesmente a natureza sendo dramática, como costumava ser nas altitudes.
+Valerius Bolt adorava este lugar.
+Não por masoquismo — embora seus superiores na Luz tivessem, ao longo dos anos, sugerido essa hipótese com uma frequência que ela considerava descortês. Mas porque os Picos Estilhaçados eram o único lugar no Meio onde ela podia treinar seus poderes sem que nada explodisse acidentalmente, sem que ninguém ficasse levemente eletrocutado, e sem memorandos exigindo explicações por escrito em três vias.
+A montanha não preenchia formulários. A montanha simplesmente absorvia o raio, rangia um pouco, e continuava sendo montanha.
+Era uma relação de respeito mútuo.
 
-Estamos bem acima dos Picos Estilhaçados, onde o ar é rarefeito, os raios são frequentes e, aparentemente, o GPS demoníaco está com defeito. Valerius está em uma saliência precária, lança crepitante, quando dois demônios — que parecem mais confusos do que assassinos — tropeçam para fora de uma fenda cintilante. 🌀
+Ela estava no terceiro nível do treinamento — o que internamente chamava de "falar com a tempestade", e que externamente parecia, para qualquer observador, uma mulher de pé numa saliência com os braços abertos sendo atingida por descargas elétricas com expressão de satisfação moderada — quando os dois demônios apareceram.
+Valerius os ouviu antes de os ver. Demônios menores, descobrira ela, tinham a tendência irritante de não conseguirem voar em silêncio — as asas produziam um som específico, entre o couro e o vento, que a montanha amplificava como uma concha do mar amplifica o oceano, só que com menos romantismo e mais enxofre.
+Ela abaixou os braços. As faíscas nos seus dedos esmoreceram, contrariadas.
+Os dois exploradores pousaram a dez metros dela com a cautela específica de criaturas que haviam sido enviadas para mapear o terreno e estavam claramente arrependidas da escolha de carreira. Eram baixos para os padrões demoníacos, com asas membranosas dobradas às costas e a expressão de quem esperava encontrar cabras e encontrou um problema consideravelmente maior.
+Houve um silêncio.
+— Humana — disse o primeiro, finalmente, com o tom oficial de quem recita um roteiro. — Em nome das Legiões do Abismo, este território está sob—
+— Valquíria — corrigiu ela.
+Outro silêncio.
+— Valquíria — recomeçou o demônio, com menos convicção. — Em nome das Legiões do Abismo, este território está sob domínio das forças demoníacas e você deve—
+— Quantos de vocês estão do outro lado do portal? — perguntou ela, com o tom educado de quem pergunta a previsão do tempo.
+Os dois demônios trocaram um olhar.
+— Não... podemos revelar informações estratégicas — disse o segundo, que até então não havia falado e parecia preferir manter essa política.
+— Claro que não. — Ela pegou a lança, que estava encostada na rocha ao seu lado. — Era só curiosidade.
+— Você não pode lutar contra as Legiões — disse o primeiro, recuperando alguma dignidade. — Somos incontáveis. Somos a escuridão que consome a luz, o fogo que—
+— Vocês dois têm nomes?
+Os demônios pararam.
+— Perdão?
+— Nomes. — Ela fez um gesto vago com a lança. — Parecem o tipo de demônio que tem nomes. Os maiores preferem títulos, mas vocês dois têm cara de nomes.
+— Eu sou... Gorzak — disse o primeiro, visivelmente sem saber por que estava respondendo.
+— Frix — disse o segundo, ainda mais sem saber.
+— Gorzak e Frix. — Ela considerou isso com seriedade aparente. — Bem. É uma pena.
+— O quê é uma pena? — perguntou Gorzak.
+— Isso.
+A lança descreveu dois arcos. O resultado foi rápido, profissional, e não particularmente dramático — o que Valerius considerava, em questões de combate, o maior elogio possível. Gorzak não chegou a terminar a expressão de surpresa, partiu-se ao meio. Frix foi mais rápido na compreensão do que no reflexo, o que não o ajudou.
+O que ajudou Frix, pelo menos parcialmente, foi o último meio segundo de existência que ele usou não para gritar, não para contra-atacar, mas para abrir a palma da mão esquerda.
+Uma chama negra e pequena subiu dela. Ignorou o vento. Ignorou a altitude. Atravessou o ar em direção ao portal do Abismo com a determinação implacável de uma mensagem que não tem interesse em ser interceptada.
+Valerius a observou a chama entrar no portal.
+Ficou olhando por um momento.
+— Bem — disse ela, para a montanha, que estava acostumada com esse tipo de conversa. — Qual é a probabilidade de eles mandarem reforços?
 
-## 🎙️ O Diálogo: "Perdidos na Tradução (e nas Dimensões)"
-**Demônio A** (um sujeito vermelho e esguio segurando um mapa de cabeça pra baixo): "...Eu te digo, Malphas, as instruções diziam 'Vire à esquerda no vazio que grita.' Isso aqui parece um vazio que grita pra você?"
+Do outro lado do portal, a mensagem chegou.
+O Comandante da Fossa não era uma criatura de paciência — era uma criatura de precedência, o que é diferente. Paciência implica esperar. Precedência implica que tudo acontece na ordem que você determina, e qualquer coisa que interrompa essa ordem é um insulto pessoal.
+A chama negra de Frix era, portanto, duplamente irritante: primeiro por existir, segundo por implicar que Frix havia morrido, o que significava que Gorzak provavelmente também havia morrido, o que significava que havia algo nos Picos Estilhaçados que matava exploradores com eficiência desconcertante.
+O Comandante contou seus soldados disponíveis.
+Quarenta.
+Considerou o número. Considerou os Picos Estilhaçados, que nunca havia visitado pessoalmente por razões que tinham a ver com dignidade e uma preferência arraigada por terreno plano.
+Considerou, por uma fração de segundo, enviar apenas vinte.
+E descartou a ideia. Qualquer coisa que matava exploradores merecia, no mínimo, quarenta soldados e um Comandante pessoalmente ofendido.
+— Movam-se — disse ele.
+O portal vomitou a horda nos Picos Estilhaçados como o Abismo expelindo um mal que já não podia mais conter.
+Valerius os contou quando apareceram no horizonte.
+— Quarenta — murmurou. E então, após uma pausa de consideração matemática: — Quarenta e um, com o Comandante.
+Ela girou a lança. As faíscas responderam entre seus dedos, estalando com o entusiasmo de quem havia sido interrompido no meio do treino e queria que isso ficasse registrado.
+— Desvantagem deles — decidiu ela.
+E começou a trabalhar.
 
-**Demônio B** (um imp baixinho e robusto com asas pequenas demais pro seu corpo): "Tá claro demais, Slag. Meus olhos estão fazendo aquela coisa de 'queimar', e não o tipo bom de queimar. Ei — olha! Um morador!"
+O que se seguiu, os poucos pássaros que habitavam aquelas altitudes testemunhariam por gerações — ou testemunhariam, se pássaros de montanha não tivessem a sabedoria de voar para longe quando o granito começa a explodir.
+Valerius conhecia a montanha. E a montanha, a esta altura de um relacionamento construído em anos de treinamento solitário e descargas elétricas compartilhadas, sabia que ela estava chegando.
+O primeiro corredor estreito eliminou oito — demônios em formação de voo não viraram durante a manobra, e a pedra não perdoou a física. Uma ponte natural, cuidadosamente carregada com energia elétrica nos dez minutos anteriores à batalha enquanto ela fingia simplesmente estar parada no pico a observá-los, foi o fim de mais doze. O granito rachou para dentro com um som que não era explosão mas decisão — como se a montanha tivesse estado esperando uma razão suficientemente boa.
+Não lute na montanha. Deixe a montanha lutar. Havia lido isso numa revista em quadrinhos na biblioteca mas antiga do Meio.
+Restavam vinte e um. E o Comandante.
 
-**Valerius**: [Apontando a lança, faíscas dançando entre seus olhos] "Morador? Eu sou a dona do pedaço, e o aluguel de vocês é pago em raios. O que vocês estão fazendo nos Picos?"
-
-**Slag** (Demônio A): "Calma, calma! Pera com esse bastão brilhante, moça! Estamos procurando o Ponto de Invasão 4-B: O Buffet Eterno. Falaram que ia ter aldeões indefesos e talvez um arsonzinho leve. Isso aqui parece só... pedras. Isso é o Inferno?"
-
-**Valerius**: "Isso é a Terra. E vocês estão a cinco segundos de virarem uma mancha de carvão nessas rochas."
-
-**Malphas** (Demônio B): "Terra? Que nojo. Ouvi dizer que eles têm 'imposto de renda' e 'ansiedade social' por aqui. Olha, moça, se você só nos apontar de volta pro portal mais próximo, a gente some. Somos só estagiários, juro. Nem plano odontológico a gente tem."
-
-## ⚔️ A Batalha: "Raio vs. Relutância"
-
-**Valerius**: [Soltando uma risada que soa como pedras rolando] "Vocês não entenderam. Aqui não tem 'voltar'. Tem só 'ficar'... ou 'virar adubo'." [Ela gira a lança, e o ar ao redor crepita com energia azul.] "Então, vamos fazer isso do jeito fácil. Joguem as armas — ou o que quer que vocês usem para não fazer nada — e me digam quem mandou vocês."
-
-**Slag**: [Olhando para Malphas com pânico] "A gente fala! A gente fala! Foi o Belzebu! Ele disse que era uma 'missão de reconhecimento de campo com potencial de buffet'. Mas acho que ele quis dizer 'missão de virar comida de raio'."
-
-**Malphas**: "Eu avisei que devíamos ter ido para a filial de 'Invasão de Castelos'. Lá pelo menos tem paredes pra se esconder!"
-
-**Valerius**: [Balançando a cabeça, um sorriso cansado no rosto] "Belzebu, é? Claro que é. Aquele glutão sempre quis um buffet sem filas. Bem, vocês não vão chegar nem perto dele."
-
-[Valerius salta, a lança brilhando intensamente. Slag e Malphas gritam em uníssono — um grito agudo e agoniado que ecoa pelos picos.]
-
-**Slag**: "SOCORRO! TEM UMA MULHER COM RAIO AQUI!"
-
-**Malphas**: "EU QUERO MEU PLANO ODONTOLÓGICO!"
-
-[Um flash ofuscante de luz azul ilumina os picos. Quando a luz diminui, Slag e Malphas não são mais demônios. São apenas duas poças de gosma fumegante no chão, com um cheiro fraco de ozônio e arrependimento.]
-
-**Valerius**: [Limpando a lança em sua calça] "Missão cumprida. Agora, sobre o aluguel..." [Ela olha para o mapa de cabeça pra baixo que Slag deixou cair.] "Buffet Eterno? Sério? Que falta de criatividade."
-
-[Ela joga o mapa no chão e pisa nele, apagando o último vestígio de esperança demoníaca nos Picos Estilhaçados.]
-
-**A Luta:**
-Valerius avança, mas a pele de Slag fica de um cinza fosco e emborrachado. A lança ricocheteia! Malphas ri, enfiando um bastão de ferro serrilhado na falésia que suga seu raio em cadeia direto do ar. É uma batalha extenuante, forçando Valerius a usar a lança de forma física em vez de apenas seus zaps chamativo. Por fim, com uma pancada devastadora de cima pra baixo, ela destroça o bastão e perfura os dois demônios.
-
-**As Consequências:**
-Enquanto Malphas cospe icor preto, ele rabisca freneticamente num pedaço de pergaminho chamuscado.
-
-"A Terra é... tosse... picante. Mandem os pesados..." 📝🔥
-
-Ele joga o papel para o ar. Ele se transforma num aviãozinho de papel em chamas e dispara pela fenda que fecha. Do outro lado, um enorme Comandante da Fossa de quatro braços o pega, lê, e sorri. De repente, o céu sobre os Picos fica vermelho-sangue. Uma Horda está vindo para Valerius. 🏃‍♀️💨
-
-Picos Estilhaçados. Altitude: 3.200m. Temperatura: Infernal.
-
-O céu virou sangue.
-Não foi gradual. Foi como alguém jogando um balde de tinta vermelha sobre o azul — um segundo normal, no seguinte, o horizonte inteiro pulsava numa cor que não existia na natureza. E dentro dessa cor, eles vinham.
-Valerius contou. Parou de contar em quarenta.
-"Beleza." Ela girou a lança uma vez, as faíscas estalando entre seus dedos como dedilhar de violão. "Quarenta contra um numa penhasco de trezentos metros de altura."
-Ela sorriu.
-"Desvantagem deles."
-
-### ⚔️ FASE 1 — "O Funil"
-O primeiro erro da horda foi óbvio: todos vinham pelo mesmo corredor de pedra.
-Os Picos Estilhaçados não eram montanhas comuns — eram uma série de agulhas de granito separadas por abismos, conectadas por pontes naturais tão estreitas que dois humanos mal passariam lado a lado. Para demônios com envergadura de asa, era um pesadelo logístico.
-Para uma Valquíria com controle climático?
-Era um canhão.
-Valerius recuou três passos até a borda da saliência e bateu o cabo da lança contra a rocha. Uma vez. Duas. Três.
-O granito rachou. Não pela força — pela carga elétrica que ela havia estado alimentando nas fissuras naturais da pedra há dez segundos.
-Preparação. Ela leu sobre isso numa batalha antiga. "Não lute na montanha. Deixe a montanha lutar."
-A ponte de pedra explodiu para dentro, levando os primeiros doze demônios numa cascata de granito e raios em direção ao abismo. Nenhum grito. Só o som do vento preenchendo o espaço onde eles estavam.
-Restavam vinte e oito. O Comandante da Fossa entre eles.
-
-### ⚔️ FASE 2 — "A Dança"
-O Comandante era diferente.
-Quatro braços. Pele como armadura forjada. E — o que era mais irritante — ele podia voar.
-Ele não avançou com a horda. Ficou parado no ar, a dez metros acima da saliência, os quatro braços cruzados, observando. Avaliando. Enquanto doze soldados menores desciam pelo flanco leste como uma maré, ele simplesmente esperou — a paciência de uma coisa que já viu muitas batalhas terminarem do mesmo jeito.
-Valerius ignorou os soldados por dois segundos perigosos e mirou direto nele.
-Cortar a cabeça primeiro.
-Ela disparou verticalmente, a lança rasgando o ar como um dardo, e descarregou um raio de ponta — não para matar, para testar. O Comandante desviou com um movimento de ombro quase entediado, mas ela viu o que precisava: ele girava sempre para a esquerda. Preferência. Músculo. Hábito.
-Ela tinha um plano.
-O que se seguiu foi menos uma batalha e mais uma negociação violenta — ela recuando, provocando, forçando-o a avançar enquanto mantinha os soldados no periférico com rajadas curtas que não custavam quase nada. Cada troca a posicionava um metro mais perto do abrigo de pedra que havia identificado. Uma fissura larga o suficiente para ela. Estreita demais para quatro braços.
-Ele percebeu tarde demais.
-Quando o Comandante mergulhou com as correntes de obsidiana abertas em leque — o golpe que havia encerrado batalhas antes — Valerius não desviou.
-Ela foi direto para dentro do alcance.
-As correntes passaram por cima dos seus ombros, inúteis a distância zero, e ela enfiou a lança entre duas placas da sua armadura forjada com tudo que tinha acumulado durante a dança inteira.
+O Comandante era o problema real.
+Quatro braços. Pele como armadura forjada. E a paciência irritante de coisa imortal que havia visto muitas batalhas e aprendera a não se impressionar com nenhuma delas. Ficou parado no ar, a dez metros acima da saliência, os quatro braços cruzados com a simetria específica de quem praticou a pose — ou praticou no equivalente infernal de um espelho, que Valerius preferia não imaginar.
+Ele observou seus soldados caindo um por um com a expressão de alguém que lê um relatório desagradável mas esperado.
+Então olhou para ela.
+— Valquíria — disse ele. A voz era o tipo que ressoa em pedra sem precisar de esforço, feita para ecoar em cavernas e salões de julgamento. — Você luta bem para uma criatura que vai morrer.
+— Obrigada — disse ela, sem parar de se mover entre os soldados restantes. — É um elogio muito específico. Vou guardar.
+Ele desceu dois metros. Apenas dois — o suficiente para que o tamanho dele ficasse mais evidente, para que a sombra dos quatro braços cruzasse a saliência como uma nuvem passando.
+— Eu sou Malgorth, Comandante da Quarta Fossa do Abismo. Conquistei trinta e sete fronts. Dobrei os joelhos de reis, de arcanjos, de coisas mais antigas que a Luz. — Uma pausa calculada. — Você é uma mulher numa montanha.
+Valerius despachou mais um soldado com um raio curto e olhou para cima.
+— Malgorth — repetiu ela, testando o nome. — Trinta e sete fronts. Deve ter um mapa enorme em casa.
+— Você não tem noção do que está diante de si.
+— Tenho uma noção razoável. — Ela recuou um passo, posicionando-se. — Quatro braços, voa, gira para a esquerda quando desvia. Subestima oponentes menores. Se leva muito a sério. — Uma pausa. — Quer que eu continue?
+O silêncio que se seguiu foi o tipo que antecede não a fala, mas a decisão.
+Malgorth desdobrou os quatro braços. As correntes de obsidiana materializaram-se entre seus dedos como algo que havia estado esperando ser invocado — negras, densas, com o peso visual de coisas que partiram armaduras antes.
+— Vou te dar uma morte honrosa — disse ele, e havia algo na voz que havia mudado. O teatro havia saído. O que ficou foi mais simples e, por isso, mais perigoso. — É mais do que a maioria recebe.
+Valerius parou.
+Não por medo — ou não apenas por medo, porque havia algo nas correntes de obsidiana que ela reconhecia, da mesma forma que se reconhece a profundidade de um abismo antes de olhar para baixo. Aquilo havia partido coisas. Muitas coisas. A confiança com que ele as segurava não era arrogância performática.
+Era memória.
+— Tudo bem — disse ela, mais baixo agora. O deboche havia ido para algum lugar atrás dos olhos, guardado para depois. O que ficou foi mais limpo. — Então vamos fazer isso direito.
+O que se seguiu não foi uma batalha no sentido que bardos cantam — não havia nada de glorioso na geometria fria do que aconteceu. Era lógica em movimento, dois organismos tentando encontrar o ângulo que terminava o outro.
+Malgorth recebeu alguns raios em sua armadura impenetrável, mas não se importou.
+Valerius foi percebendo ao poucos que a distância era o que mais importava, mas naquele exato momento, ainda não entendia como derrota-lo.
+Malgorth avançou. Ela recuou. As correntes cortaram o ar onde ela havia estado com um som que não era vento, mas ausência — o som de algo que remove o que toca.
+— Você recua — observou ele, sem inflexão.
+— Estou pensando — corrigiu ela, entre dentes.
+— Para uma Valquíria, é a mesma coisa.
+Ela disparou verticalmente mais uma vez — não para matar, para ler. O raio encontrou o peito dele e ele desviou para a esquerda, exatamente como havia desviado antes, exatamente como desviaria sempre porque séculos de combate gravam hábitos mais fundo que qualquer intenção.
+Lá está.
+— Você tem um padrão — disse ela.
+— Tenho experiência — respondeu Malgorth. — São coisas diferentes.
+— São — ela concordou. — A experiência te diz o que funcionou antes. O padrão te diz o que vai falhar agora.
+Ele avançou com as correntes girando tão rápido que pareciam quatro foices — o golpe que havia encerrado batalhas, ela tinha certeza, o golpe que era o ponto final de cada um dos trinta e sete fronts. Rápido demais para desviar. Largo demais para escapar pelos lados.
+Mas não largo o suficiente para distância zero.
+Valerius foi direto para dentro do alcance.
+As correntes machucaram, mas não foram suficientes para pará-la. Ela sentiu o deslocamento de ar, o frio de obsidiana passando a centímetros da nuca, e não olhou. Já havia olhado o suficiente. Sabia onde estava a fresta entre as placas da armadura forjada — havia identificado durante a dança inteira, cada troca um centímetro a mais de informação.
+Ela enfiou a lança na fresta do peito dele.
+E despejou tudo.
+Cada faísca guardada. Cada raio contido. Cada acúmulo de energia que havia sobrado dos soldados anteriores, concentrado num único ponto, sem reserva, sem cálculo, sem nada que se parecesse com prudência.
 O relâmpago não foi azul.
 Foi branco.
-O Comandante da Fossa saiu voando para trás, atravessou dois dos seus próprios soldados e bateu contra a face da montanha com um impacto que ecoou como um trovão. Pedras rolaram. Rachaduras se espalharam pelo granito como veias. Ele escorregou lentamente pela face da rocha e não se levantou.
-Valerius pousou.
-E percebeu que o mundo estava girando.
+Malgorth, Comandante da Quarta Fossa do Abismo, conquistador de trinta e sete fronts, dobrador de joelhos de reis e arcanjos — saiu voando para trás atravessando dois dos seus próprios soldados como se fossem névoa, e encontrou a face da montanha com um impacto que ecoou de pico em pico até se perder no vale abaixo.
+Pedras rolaram. Rachaduras espalharam-se pelo granito como veias encontrando caminho.
+Ele escorregou lentamente pela face da rocha.
+Em seu ultimo suspiro ele disse:
+— Você não é páreo para a Legião do Abismo, Valquíria - disse ele, com a voz rouca e fraca. - Quando encontrares os príncipes do pecado, você não terá a mesma sorte.
+E não se levantou.
+Valerius ficou parada onde estava, respiração em frangalhos, não se importou com o aviso, a mão da lança tremendo com o tipo de tremor que não é fraqueza mas consequência.
+— Trinta e oito — disse ela, para o demônio morto. — Atualiza o mapa.
+
+Então percebeu que o mundo estava girando.
 Quanto eu usei?
-A resposta chegou como náusea imediata, como alguém puxando um tapete de baixo dos pés: tudo. Ela havia despejado cada acúmulo da dança inteira num único ponto. A estratégia havia funcionado perfeitamente.
-E havia a deixado completamente vazia.
-Restavam dezesseis demônios.
-E eles estavam avançando.
+A resposta chegou como náusea imediata, como alguém puxando um tapete de baixo dos pés no décimo andar: tudo. Sem faísca. Sem reserva. Sem nada além de braços que queimavam e pernas que discordavam da ideia de continuar em pé.
+Restavam dezoito demônios.
+Avançando.
+— Ah — disse ela, com a serenidade de quem já passou por isso antes e não havia gostado. — Claro.
 
-### 🏃 FASE 3 — "A Fuga"
-Valerius correu.
-Não havia romantismo nisso. Não havia tática elaborada ou posicionamento calculado. Havia apenas a percepção brutal de que ficar parada era morrer, e que suas pernas ainda funcionavam mesmo que mais nada funcionasse.
-Ela não tinha raios. Não tinha faíscas. A lança era um bastão de metal pesado na mão que ela carregava por puro instinto de não largar a arma.
-Os demônios eram mais rápidos no ar — mas ela conhecia a montanha.
-Corredor estreito à direita. Eles não conseguem virar rápido em formação.
-Ela virou à direita.
-Três demônios bateram uns nos outros tentando acompanhar.
-A saliência com a névoa densa. Visibilidade zero a partir de baixo.
-Ela mergulhou nela, agachando, e ouviu dois pares de asas passarem direto acima — cegos.
-A fissura. Chega até o pico secundário.
-Era estreita. Tinha lá seus vinte metros de escalada praticamente vertical. Com os braços queimando do esforço da batalha, com a cabeça girando por falta de energia, parecia uma ideia absolutamente horrível.
-Ela entrou na fissura.
-A escalada foi os piores dois minutos da sua vida recente. Pedra cortando as palmas das mãos. Um demônio encontrou a entrada e tentou seguir — ficou preso no terço inferior, as asas travadas contra o granito, gritando palavrões em Baixo Infernal que ela não precisava entender para interpretar.
-Quando ela emergiu no pico secundário, havia onze demônios esperando.
-Os outros cinco haviam voado em volta da montanha para cortar o caminho.
-Valerius ficou parada por um momento, mãos sangrentas, respiração rasgada, olhando para o círculo que se fechava.
-E então olhou para cima.
-
-### 🌩️ CLÍMAX — "O Preço do Pico"
-
-O pico mais alto estava a quarenta metros acima. Uma agulha de granito nua, exposta em todos os ângulos, sem cobertura nenhuma.
-A pior posição táctica possível.
-A melhor posição para uma Valquíria sem energia.
-Ela entendeu o que precisava fazer — e entendeu que ia doer.
-Ela subiu. Não correu, não escalou com graça — se arrastou, com demônios em seus calcanhares e a montanha cortando cada centímetro de pele exposto. Um a pegou pelo tornozelo. Ela usou a lança como alavanca e o mandou para o abismo no grito.
-Quando alcançou o topo, havia sete demônios atrás dela e quatro voando em aproximação.
+Ela correu.
+Não havia poesia nisso. Havia apenas a percepção brutal de que ficar parada era morrer, e que suas pernas ainda funcionavam mesmo que mais nada funcionasse. A lança ia na mão direita como bengala — uma indignidade que ela registrava mentalmente para processar depois, num momento em que tivesse o luxo de se indignar.
+O pico mais alto ficava a quarenta metros acima. Uma agulha de granito nua, exposta em todos os ângulos, sem cobertura possível. A pior posição táctica concebível para qualquer guerreiro com recursos.
+A única posição lógica para uma Valquíria sem nenhum.
+Ela havia sentido a frente elétrica no sudoeste durante a fuga — uma tempestade natural se formando, densa, o tipo que nasce quando o ar quente dos vales encontra o frio das altitudes. Ela não tinha energia para chamá-la.
+Mas no pico mais alto da montanha mais alta dos Picos Estilhaçados, não precisava chamar nada.
+Precisava apenas ser o ponto mais alto. E confiar que a física era, como sempre havia sido, mais confiável do que a sorte.
+A subida foi os piores dois minutos da sua vida recente — categoria com concorrência considerável. Granito cortando cada centímetro de pele exposto. Demônios nos calcanhares. Um a pegou pelo tornozelo; ela o mandou para o abismo com a lança e um grito que foi, honestidade obriga, parcialmente dela própria.
+Quando alcançou o topo, havia quatro demônios em aproximação aérea.
 Valerius enterrou a lança no granito do pico.
 E esperou.
-Não pelos demônios. Pela tempestade.
-Ela havia sentido a frente elétrica no sudoeste durante a fuga — a três quilômetros, se movendo leste. Uma tempestade natural, densa, o tipo que se forma quando o ar quente dos vales encontra o frio das altitudes. Ela não tinha energia para chamá-la.
-Mas no pico mais alto da montanha mais alta dos Picos Estilhaçados, ela não precisava chamar nada.
-Precisava apenas ser o ponto mais alto.
-E esperar que a física fizesse o resto.
-O raio veio antes que os demônios chegassem a ela.
-Desceu pelo eixo da lança, pelo cabo, pelas palmas das suas mãos, pelo seu corpo inteiro — e Valerius não desviou. Ela respirou fundo e conduziu, transformando-se em fio, em circuito, em ponte entre a tempestade e a rocha.
+A tempestade chegou como uma resposta — não a um chamado, mas a uma pergunta física. Qual é o ponto mais alto? E a montanha respondia, como sempre respondia, apontando para a agulha de granito onde uma Valquíria exausta segurava uma lança com mãos que mal obedeciam.
+O raio desceu antes que os demônios chegassem.
+Pelo eixo da lança. Pelo cabo. Pelas palmas das suas mãos. Por ela inteira.
+E Valerius não desviou. Respirou fundo — o tipo de respiração que é menos ar e mais decisão — e conduziu. Transformou-se em fio, em circuito, em ponte entre a tempestade e a rocha. A dor foi o tipo que não tem nome útil, o tipo que existe além da linguagem, no lugar onde o corpo para de reclamar porque reclamar exigiria energia que não há.
 Durou talvez três segundos.
-Quando terminou, o pico estava limpo. O granito ao redor estava vitrificado. O ar cheirava a ozônio tão forte que ardia.
-E Valerius estava de joelhos, as mãos presas à lança enterrada, a cabeça baixa, a respiração em frangalhos.
-Ela ficou assim por um longo tempo.
+Quando terminou, o pico estava limpo. O granito ao redor havia vitrificado. O ar cheirava a ozônio com uma intensidade que ardia nas narinas e seria sentida no vale abaixo como aquele cheiro específico que antecede tempestades — que os humanos achavam que era natureza e era, desta vez, uma Valquíria.
+Valerius estava de joelhos, as mãos presas à lança enterrada, a cabeça baixa.
+Ficou assim por um longo tempo.
+A montanha não comentou. Ela apreciou isso.
 
-### 📡 EPÍLOGO — "O Sinal e o Próximo Passo"
-O céu ainda estava vermelho quando ela desceu.
-
-Mais devagar agora. Muito mais devagar. Cada degrau da montanha custava uma negociação entre a vontade e os músculos que haviam dado mais do que tinham. A lança ia na mão direita como bengala — uma indignidade que ela aceitava em silêncio.
-
-Lá embaixo, nas planícies entre os Picos e os vales, mais portões continuavam se abrindo. Pequenos daqui de cima, mas ela sabia a escala real. Havia visto antes de subir.
-
+O céu ainda estava vermelho quando ela desceu. Mais devagar. Cada passo uma negociação entre a vontade e músculos que haviam dado mais do que tinham, e que expressavam esse fato com uma eloquência dolorosa.
+Lá embaixo, nas planícies entre os Picos e os vales, mais portões continuavam se abrindo. Pequenos daqui de cima. Ela sabia a escala real.
 Isso não é uma incursão.
-
-Era uma invasão. E ela havia acabado de gastar tudo para matar um Comandante e um punhado de soldados.
-
-Não havia segunda rodada nela. Não hoje.
-Valerius parou numa saliência intermediária, arrancou um fragmento de granito ainda quente da batalha — impregnado com resíduo elétrico, o tipo que durava horas — e o apertou na palma da mão ensanguentada. Uma prática antiga. Uma pedra de tempestade.
-
-Para quem soubesse a frequência, era um farol.
-
-Ela não sabia se algum dos outros saberia ouvir. Não sabia se Thalassa ainda estava no bosque, se Krell ainda segurava aquela maldita parede, se Xandros havia saído da biblioteca em chamas.
-
+Era uma invasão. E ela havia gastado tudo para segurar um único front, por uma única tarde, contra uma fração de uma fração do que estava por vir.
+Valerius arrancou um fragmento de granito ainda quente e o apertou na palma da mão ensanguentada. Uma prática antiga. Uma pedra de tempestade — impregnada com resíduo elétrico, o tipo que durava horas. Para quem soubesse a frequência, era um farol.
+Ela não sabia se os outros estariam ouvindo. Não sabia se Thalassa ainda estava no bosque, se Krell ainda segurava aquela maldita parede, se Xandros havia saído da biblioteca.
 Mas mandou o sinal.
+E começou a descer em direção ao vale central. A Encruzilhada do Destino, como chamavam nos mapas antigos. Um nome dramático para o que era, essencialmente, uma bifurcação de estradas com uma fonte seca no meio.
+Parece um lugar onde o destino te encontra, ela pensou.
+E odiou, sinceramente, que o pensamento fizesse sentido.
+Ela desceu. Exausta. Sem raios. Com uma lança, um sinal enviado, e a certeza absoluta de que o que havia visto nos vales era grande demais para qualquer um sozinho.
 
-E começou a descer em direção ao vale central — o único ponto equidistante dos cinco fronts que ela conhecia. A Encruzilhada do Destino, como chamavam nos mapas antigos. Um nome dramático para o que era essencialmente uma bifurcação de estradas com uma fonte seca no meio.
-
-Parece um lugar onde o destino te encontra, ela pensou, e odiou que o pensamento fazia sentido.
-
-Ela desceu. Exausta. Sem raios. Sem recursos.
-
-Com uma lança, um sinal enviado, e a certeza de que o que havia visto nos vales era grande demais para enfrentar sozinha.
-
-Suficiente, decidiu. Por hoje, suficiente.
+Em algum lugar do outro lado dos portais, Asmodeus continuava seu plano de expandir o abismo por todo o Meio.
+Valerius, sabia que algo mais estava por vir.
+Mas primeiro: uma semana de sono. E, de preferência, algo quente para comer.
+Nessa ordem.
