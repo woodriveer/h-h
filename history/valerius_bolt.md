@@ -1,4 +1,4 @@
-# Capítulo I — A Valquíria dos Picos Estilhaçados
+# Capítulo I — A Valquíria e a Tempestade
 
 Entre todos os lugares do Meio nos quais alguém poderia escolher passar uma tarde, os Picos Estilhaçados eram, por consenso geral de cartógrafos, estrategistas e qualquer pessoa com coluna vertebral saudável, os menos recomendáveis.
 Não havia estradas. Não havia abrigo. Não havia nada além de granito, vento cortante e a convicção geológica inabalável de que o mundo era um lugar vertical e que quem não gostasse disso estava livre para viver no vale como todo o resto. As agulhas de rocha erguiam-se do chão como dedos quebrados apontando acusatoriamente para a Luz — uma blasfêmia em pedra, talvez, ou simplesmente a natureza sendo dramática, como costumava ser nas altitudes.
